@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mcoo.me/en/</loc>
+    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://mcoo.me/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mcoo.me/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/series/go-web-dev/</loc>
+    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/post/</loc>
+    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/series/</loc>
+    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://mcoo.me/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mcoo.me/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</loc>
+    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://mcoo.me/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mcoo.me/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/post/creating-a-new-theme/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://mcoo.me/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mcoo.me/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mcoo.me/en/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

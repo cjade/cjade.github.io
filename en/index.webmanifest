@@ -1,0 +1,18 @@
+{
+  "name": "鱼摆摆",
+  "short_name": "鱼摆摆",
+  "lang": "en",
+  "theme_color": "#FF6188",
+  "background_color": "#2D2A2E",
+  "icons": [{
+    "src": "http://mcoo.me/logo-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "http://mcoo.me/logo-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/en/?utm_source=web_app_manifest"
+}
