@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mcoo.me/ko/categories/</loc>
+    <loc>https://mcoo.me/ko/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://mcoo.me/en/categories/"
+                href="https://mcoo.me/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://mcoo.me/ko/categories/"
+                href="https://mcoo.me/ko/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://mcoo.me/ko/series/</loc>
+    <loc>https://mcoo.me/ko/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://mcoo.me/en/series/"
+                href="https://mcoo.me/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://mcoo.me/ko/series/"
+                href="https://mcoo.me/ko/series/"
                 />
   </url>
   
   <url>
-    <loc>http://mcoo.me/ko/tags/</loc>
+    <loc>https://mcoo.me/ko/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://mcoo.me/en/tags/"
+                href="https://mcoo.me/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://mcoo.me/ko/tags/"
+                href="https://mcoo.me/ko/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://mcoo.me/ko/</loc>
+    <loc>https://mcoo.me/ko/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://mcoo.me/en/"
+                href="https://mcoo.me/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://mcoo.me/ko/"
+                href="https://mcoo.me/ko/"
                 />
   </url>
   

@@ -1,6 +1,6 @@
 [
 {
-	"uri": "http://mcoo.me/ko/categories/",
+	"uri": "https://mcoo.me/ko/categories/",
 	"title": "Categories",
 	"tags": [],
 	"categories": [],
@@ -9,7 +9,7 @@
 	"content": ""
 },
 {
-	"uri": "http://mcoo.me/ko/series/",
+	"uri": "https://mcoo.me/ko/series/",
 	"title": "Series",
 	"tags": [],
 	"categories": [],
@@ -18,7 +18,7 @@
 	"content": ""
 },
 {
-	"uri": "http://mcoo.me/ko/tags/",
+	"uri": "https://mcoo.me/ko/tags/",
 	"title": "Tags",
 	"tags": [],
 	"categories": [],
@@ -27,7 +27,7 @@
 	"content": ""
 },
 {
-	"uri": "http://mcoo.me/ko/",
+	"uri": "https://mcoo.me/ko/",
 	"title": "鱼摆摆",
 	"tags": [],
 	"categories": [],
