@@ -1,6 +1,7 @@
 baseURL = "http://mcoo.me/" # The URL of your site.
-title = "Jade" # Title of your site
-theme = "zzo" # Name of Zzo theme folder in `themes/`.
+title = "鱼摆摆" # Title of your site
+theme = "鱼摆摆" # Name of Zzo theme folder in `themes/`.
+subtitle = "The world’s fastest framework for building websites"
 
 defaultContentLanguage = "en" # Default language to use (if you setup multilingual support)
 defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
