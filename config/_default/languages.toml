@@ -1,0 +1,9 @@
+[en]
+  title = "Jade"
+  languageName = "English"
+  weight = 1
+
+[ko]
+  title = "Jade"
+  languageName = "한국어"
+  weight = 2

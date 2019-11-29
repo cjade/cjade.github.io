@@ -1,9 +1,22 @@
----
-author: "Michael Henderson"
-date: 2014-09-28
-title: Creating a New Theme
-image: 'artist.jpg'
----
++++
+author = "Michael Henderson"
+title = "Creating a New Theme"
+#featured_image = "artist.jpg"
+featured_image = "feature1/wave.png"
+description = ""
+tags = [
+    "templates",
+    "golang",
+    "templates",
+    "themes",
+    "development",
+]
+date = "2014-04-02"
+categories = [
+    "Development",
+    "golang",
+]
++++
 
 ## Introduction
 
