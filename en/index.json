@@ -9,6 +9,60 @@
 	"content": ""
 },
 {
+	"uri": "https://mcoo.me/en/categories/",
+	"title": "Categories",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/categories/linux/",
+	"title": "Linux",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/tags/linux/",
+	"title": "linux",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/linux/",
+	"title": "Linuxes",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/",
+	"title": "Linux下的tar压缩解压缩命令详解",
+	"tags": ["linux"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": " tar  -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件  这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。\n -z：有gzip属性的 -j：有bz2属性的 -Z：有compress属性的 -v：显示所有过程 -O：将文件解开到标准输出  下面的参数-f是必须的 - -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。\ntar -cf all.tar *.jpg 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。\ntar -rf all.tar *.gif 这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。\ntar -uf all.tar logo.gif 这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。\ntar -tf all.tar 这条命令是列出all.tar包中所有文件，-t是列出文件的意思\ntar -xf all.tar 这条命令是解出all.tar包中所有文件，-t是解开的意思\n压缩 tar -cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpg\ntar -czf jpg.tar.gz *.jpg//将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz\ntar -cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2\ntar -cZf jpg.tar.Z *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z\nrar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar for linux\nzip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux\n解压 tar -xvf file.tar //解压 tar包\ntar -xzvf file.tar.gz //解压tar.gz\ntar -xjvf file.tar.bz2 //解压 tar.bz2\ntar -xZvf file.tar.Z //解压tar.Z\nunrar e file.rar //解压rar\nunzip file.zip //解压zip\n总结 1、*.tar 用 tar -xvf 解压\n2、*.gz 用 gzip -d或者gunzip 解压\n3、.tar.gz和.tgz 用 tar -xzf 解压\n4、*.bz2 用 bzip2 -d或者用bunzip2 解压\n5、*.tar.bz2用tar -xjf 解压\n6、*.Z 用 uncompress 解压\n7、*.tar.Z 用tar -xZf 解压\n8、*.rar 用 unrar e解压\n9、*.zip 用 unzip 解压\n"
+},
+{
+	"uri": "https://mcoo.me/en/tags/",
+	"title": "Tags",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://mcoo.me/en/series/go-web-dev/",
 	"title": "Go Web Dev",
 	"tags": [],
@@ -63,15 +117,6 @@
 	"content": " Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.\nThis document is a brief primer on using Go templates. The Go docs provide more details.\nIntroduction to Go Templates Go templates provide an extremely simple template language. It adheres to the belief that only the most basic of logic belongs in the template or view layer. One consequence of this simplicity is that Go templates parse very quickly.\nA unique characteristic of Go templates is they are content aware. Variables and content will be sanitized depending on the context of where they are used. More details can be found in the Go docs.\nBasic Syntax Golang templates are HTML files with the addition of variables and functions.\nGo variables and functions are accessible within {{ }}\nAccessing a predefined variable \u0026ldquo;foo\u0026rdquo;:\n{{ foo }}  Parameters are separated using spaces\nCalling the add function with input of 1, 2:\n{{ add 1 2 }}  Methods and fields are accessed via dot notation\nAccessing the Page Parameter \u0026ldquo;bar\u0026rdquo;\n{{ .Params.bar }}  Parentheses can be used to group items together\n{{ if or (isset .Params \u0026quot;alt\u0026quot;) (isset .Params \u0026quot;caption\u0026quot;) }} Caption {{ end }}  Variables Each Go template has a struct (object) made available to it. In hugo each template is passed either a page or a node struct depending on which type of page you are rendering. More details are available on the variables page.\nA variable is accessed by referencing the variable name.\n\u0026lt;title\u0026gt;{{ .Title }}\u0026lt;/title\u0026gt;  Variables can also be defined and referenced.\n{{ $address := \u0026quot;123 Main St.\u0026quot;}} {{ $address }}  Functions Go template ship with a few functions which provide basic functionality. The Go template system also provides a mechanism for applications to extend the available functions with their own. Hugo template functions provide some additional functionality we believe are useful for building websites. Functions are called by using their name followed by the required parameters separated by spaces. Template functions cannot be added without recompiling hugo.\nExample:\n{{ add 1 2 }}  Includes When including another template you will pass to it the data it will be able to access. To pass along the current context please remember to include a trailing dot. The templates location will always be starting at the /layout/ directory within Hugo.\nExample:\n{{ template \u0026quot;chrome/header.html\u0026quot; . }}  Logic Go templates provide the most basic iteration and conditional logic.\nIteration Just like in Go, the Go templates make heavy use of range to iterate over a map, array or slice. The following are different examples of how to use range.\nExample 1: Using Context\n{{ range array }} {{ . }} {{ end }}  Example 2: Declaring value variable name\n{{range $element := array}} {{ $element }} {{ end }}  Example 2: Declaring key and value variable name\n{{range $index, $element := array}} {{ $index }} {{ $element }} {{ end }}  Conditionals If, else, with, or, \u0026amp; and provide the framework for handling conditional logic in Go Templates. Like range, each statement is closed with end.\nGo Templates treat the following values as false:\n false 0 any array, slice, map, or string of length zero  Example 1: If\n{{ if isset .Params \u0026quot;title\u0026quot; }}\u0026lt;h4\u0026gt;{{ index .Params \u0026quot;title\u0026quot; }}\u0026lt;/h4\u0026gt;{{ end }}  Example 2: If -\u0026gt; Else\n{{ if isset .Params \u0026quot;alt\u0026quot; }} {{ index .Params \u0026quot;alt\u0026quot; }} {{else}} {{ index .Params \u0026quot;caption\u0026quot; }} {{ end }}  Example 3: And \u0026amp; Or\n{{ if and (or (isset .Params \u0026quot;title\u0026quot;) (isset .Params \u0026quot;caption\u0026quot;)) (isset .Params \u0026quot;attr\u0026quot;)}}  Example 4: With\nAn alternative way of writing \u0026ldquo;if\u0026rdquo; and then referencing the same value is to use \u0026ldquo;with\u0026rdquo; instead. With rebinds the context . within its scope, and skips the block if the variable is absent.\nThe first example above could be simplified as:\n{{ with .Params.title }}\u0026lt;h4\u0026gt;{{ . }}\u0026lt;/h4\u0026gt;{{ end }}  Example 5: If -\u0026gt; Else If\n{{ if isset .Params \u0026quot;alt\u0026quot; }} {{ index .Params \u0026quot;alt\u0026quot; }} {{ else if isset .Params \u0026quot;caption\u0026quot; }} {{ index .Params \u0026quot;caption\u0026quot; }} {{ end }}  Pipes One of the most powerful components of Go templates is the ability to stack actions one after another. This is done by using pipes. Borrowed from unix pipes, the concept is simple, each pipeline\u0026rsquo;s output becomes the input of the following pipe.\nBecause of the very simple syntax of Go templates, the pipe is essential to being able to chain together function calls. One limitation of the pipes is that they only can work with a single value and that value becomes the last parameter of the next pipeline.\nA few simple examples should help convey how to use the pipe.\nExample 1 :\n{{ if eq 1 1 }} Same {{ end }}  is the same as\n{{ eq 1 1 | if }} Same {{ end }}  It does look odd to place the if at the end, but it does provide a good illustration of how to use the pipes.\nExample 2 :\n{{ index .Params \u0026quot;disqus_url\u0026quot; | html }}  Access the page parameter called \u0026ldquo;disqus_url\u0026rdquo; and escape the HTML.\nExample 3 :\n{{ if or (or (isset .Params \u0026quot;title\u0026quot;) (isset .Params \u0026quot;caption\u0026quot;)) (isset .Params \u0026quot;attr\u0026quot;)}} Stuff Here {{ end }}  Could be rewritten as\n{{ isset .Params \u0026quot;caption\u0026quot; | or isset .Params \u0026quot;title\u0026quot; | or isset .Params \u0026quot;attr\u0026quot; | if }} Stuff Here {{ end }}  Context (aka. the dot) The most easily overlooked concept to understand about Go templates is that {{ . }} always refers to the current context. In the top level of your template this will be the data set made available to it. Inside of a iteration it will have the value of the current item. When inside of a loop the context has changed. . will no longer refer to the data available to the entire page. If you need to access this from within the loop you will likely want to set it to a variable instead of depending on the context.\nExample:\n {{ $title := .Site.Title }} {{ range .Params.tags }} \u0026lt;li\u0026gt; \u0026lt;a href=\u0026quot;{{ $baseurl }}/tags/{{ . | urlize }}\u0026quot;\u0026gt;{{ . }}\u0026lt;/a\u0026gt; - {{ $title }} \u0026lt;/li\u0026gt; {{ end }}  Notice how once we have entered the loop the value of {{ . }} has changed. We have defined a variable outside of the loop so we have access to it from within the loop.\nHugo Parameters Hugo provides the option of passing values to the template language through the site configuration (for sitewide values), or through the meta data of each specific piece of content. You can define any values of any type (supported by your front matter/config format) and use them however you want to inside of your templates.\nUsing Content (page) Parameters In each piece of content you can provide variables to be used by the templates. This happens in the front matter.\nAn example of this is used in this documentation site. Most of the pages benefit from having the table of contents provided. Sometimes the TOC just doesn\u0026rsquo;t make a lot of sense. We\u0026rsquo;ve defined a variable in our front matter of some pages to turn off the TOC from being displayed.\nHere is the example front matter:\n--- title: \u0026quot;Permalinks\u0026quot; date: \u0026quot;2013-11-18\u0026quot; aliases: - \u0026quot;/doc/permalinks/\u0026quot; groups: [\u0026quot;extras\u0026quot;] groups_weight: 30 notoc: true ---  Here is the corresponding code inside of the template:\n {{ if not .Params.notoc }} \u0026lt;div id=\u0026quot;toc\u0026quot; class=\u0026quot;well col-md-4 col-sm-6\u0026quot;\u0026gt; {{ .TableOfContents }} \u0026lt;/div\u0026gt; {{ end }}  Using Site (config) Parameters In your top-level configuration file (eg, config.yaml) you can define site parameters, which are values which will be available to you in chrome.\nFor instance, you might declare:\nparams: CopyrightHTML: \u0026quot;Copyright \u0026amp;#xA9; 2013 John Doe. All Rights Reserved.\u0026quot; TwitterUser: \u0026quot;spf13\u0026quot; SidebarRecentLimit: 5  Within a footer layout, you might then declare a \u0026lt;footer\u0026gt; which is only provided if the CopyrightHTML parameter is provided, and if it is given, you would declare it to be HTML-safe, so that the HTML entity is not escaped again. This would let you easily update just your top-level config file each January 1st, instead of hunting through your templates.\n{{if .Site.Params.CopyrightHTML}}\u0026lt;footer\u0026gt; \u0026lt;div class=\u0026quot;text-center\u0026quot;\u0026gt;{{.Site.Params.CopyrightHTML | safeHtml}}\u0026lt;/div\u0026gt; \u0026lt;/footer\u0026gt;{{end}}  An alternative way of writing the \u0026ldquo;if\u0026rdquo; and then referencing the same value is to use \u0026ldquo;with\u0026rdquo; instead. With rebinds the context . within its scope, and skips the block if the variable is absent:\n{{with .Site.Params.TwitterUser}}\u0026lt;span class=\u0026quot;twitter\u0026quot;\u0026gt; \u0026lt;a href=\u0026quot;https://twitter.com/{{.}}\u0026quot; rel=\u0026quot;author\u0026quot;\u0026gt; \u0026lt;img src=\u0026quot;/images/twitter.png\u0026quot; width=\u0026quot;48\u0026quot; height=\u0026quot;48\u0026quot; title=\u0026quot;Twitter: {{.}}\u0026quot; alt=\u0026quot;Twitter\u0026quot;\u0026gt;\u0026lt;/a\u0026gt; \u0026lt;/span\u0026gt;{{end}}  Finally, if you want to pull \u0026ldquo;magic constants\u0026rdquo; out of your layouts, you can do so, such as in this example:\n\u0026lt;nav class=\u0026quot;recent\u0026quot;\u0026gt; \u0026lt;h1\u0026gt;Recent Posts\u0026lt;/h1\u0026gt; \u0026lt;ul\u0026gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}} \u0026lt;li\u0026gt;\u0026lt;a href=\u0026quot;{{.RelPermalink}}\u0026quot;\u0026gt;{{.Title}}\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt; {{end}}\u0026lt;/ul\u0026gt; \u0026lt;/nav\u0026gt;  "
 },
 {
-	"uri": "https://mcoo.me/en/categories/",
-	"title": "Categories",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "https://mcoo.me/en/post/creating-a-new-theme/",
 	"title": "Creating a New Theme",
 	"tags": ["templates", "golang", "templates", "themes", "development"],
@@ -117,7 +162,7 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/tags/golang/",
+	"uri": "https://mcoo.me/en/categories/golang/",
 	"title": "golang",
 	"tags": [],
 	"categories": [],
@@ -126,7 +171,7 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/categories/golang/",
+	"uri": "https://mcoo.me/en/tags/golang/",
 	"title": "golang",
 	"tags": [],
 	"categories": [],
@@ -137,15 +182,6 @@
 {
 	"uri": "https://mcoo.me/en/tags/hugo/",
 	"title": "hugo",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://mcoo.me/en/tags/",
-	"title": "Tags",
 	"tags": [],
 	"categories": [],
 	"series": [],

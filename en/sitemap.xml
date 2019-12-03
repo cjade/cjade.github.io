@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://mcoo.me/en/</loc>
-    <lastmod>2019-11-29T00:00:00+08:00</lastmod>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -14,6 +14,56 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mcoo.me/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/categories/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://mcoo.me/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mcoo.me/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/categories/linux/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/tags/linux/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/tags/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://mcoo.me/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mcoo.me/en/tags/"
                 />
   </url>
   
@@ -58,21 +108,6 @@
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://mcoo.me/ko/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mcoo.me/en/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mcoo.me/en/post/creating-a-new-theme/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -98,33 +133,18 @@
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/golang/</loc>
+    <loc>https://mcoo.me/en/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/golang/</loc>
+    <loc>https://mcoo.me/en/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mcoo.me/en/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mcoo.me/en/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://mcoo.me/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mcoo.me/en/tags/"
-                />
   </url>
   
   <url>
