@@ -1,7 +1,6 @@
 +++
 author = "Michael Henderson"
 title = "Creating a New Theme"
-#featured_image = "artist.jpg"
 featured_image = "feature1/wave.png"
 description = ""
 tags = [
