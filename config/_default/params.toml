@@ -1,5 +1,5 @@
-logoText = "鱼摆摆" # site navigation bar logo text.
-description = "鱼摆摆." # for SEO
+logoText = "蜗牛" # site navigation bar logo text.
+description = "蜗牛" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 
