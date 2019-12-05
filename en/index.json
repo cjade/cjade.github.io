@@ -45,13 +45,22 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/",
-	"title": "Linux下的tar压缩解压缩命令详解",
-	"tags": ["linux"],
+	"uri": "https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/",
+	"title": "Mac下SSH连接本地虚拟机",
+	"tags": ["linux", "Vmware", "Ubuntu", "ssh"],
 	"categories": [],
 	"series": [],
 	"description": "",
-	"content": " tar  -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件  这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。\n -z：有gzip属性的 -j：有bz2属性的 -Z：有compress属性的 -v：显示所有过程 -O：将文件解开到标准输出  下面的参数-f是必须的 - -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。\ntar -cf all.tar *.jpg 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。\ntar -rf all.tar *.gif 这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。\ntar -uf all.tar logo.gif 这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。\ntar -tf all.tar 这条命令是列出all.tar包中所有文件，-t是列出文件的意思\ntar -xf all.tar 这条命令是解出all.tar包中所有文件，-t是解开的意思\n压缩 tar -cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpg\ntar -czf jpg.tar.gz *.jpg//将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz\ntar -cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2\ntar -cZf jpg.tar.Z *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z\nrar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar for linux\nzip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux\n解压 tar -xvf file.tar //解压 tar包\ntar -xzvf file.tar.gz //解压tar.gz\ntar -xjvf file.tar.bz2 //解压 tar.bz2\ntar -xZvf file.tar.Z //解压tar.Z\nunrar e file.rar //解压rar\nunzip file.zip //解压zip\n总结 1、*.tar 用 tar -xvf 解压\n2、*.gz 用 gzip -d或者gunzip 解压\n3、.tar.gz和.tgz 用 tar -xzf 解压\n4、*.bz2 用 bzip2 -d或者用bunzip2 解压\n5、*.tar.bz2用tar -xjf 解压\n6、*.Z 用 uncompress 解压\n7、*.tar.Z 用tar -xZf 解压\n8、*.rar 用 unrar e解压\n9、*.zip 用 unzip 解压\n"
+	"content": "1、连接拒绝\n$ ssh jade@172.16.50.129  结果\nssh: connect to host 172.16.50.129 port 22: Connection refused  2、检查虚拟机的SSH服务是否开启\n$ ps -e | grep ssh  结果\n 1419 ? 00:00:00 ssh-agent  只出现ssh-agent则没有开启ssh\n3、开启SSH服务\n$ sudo service ssh start  结果\nFailed to start ssh.service: Unit ssh.service not found.  没有ssh服务\n4、安装openssh-server\n$ sudo apt-get install openssh-server  安装完毕再次执行sudo service ssh start启动ssh服务\n5、开启成功\n6、再次连接虚拟机\n成功、结束。\n"
+},
+{
+	"uri": "https://mcoo.me/en/tags/ssh/",
+	"title": "ssh",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://mcoo.me/en/tags/",
@@ -61,6 +70,42 @@
 	"series": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/tags/ubuntu/",
+	"title": "Ubuntu",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/tags/vmware/",
+	"title": "Vmware",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/",
+	"title": "实现VMware运行Ubuntu与宿主机互相复制粘贴",
+	"tags": ["linux", "Vmware", "Ubuntu"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": "使用Vmware虚拟机中，发现宿主机与虚拟机里面的内容无法互相复制粘贴。造成交互内容麻烦，尝试需要使用管理员权限打开虚拟机，这样就可以正常复制粘贴宿主机中的内容到虚拟机中了。\n在Vmware虚拟机中执行下列命名\n$ sudo apt-get autoremove open-vm-tools $ sudo apt-get install open-vm-tools-desktop $ reboot  "
+},
+{
+	"uri": "https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/",
+	"title": "Linux下的tar压缩解压缩命令详解",
+	"tags": ["linux"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": " tar  -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件  这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。\n -z：有gzip属性的 -j：有bz2属性的 -Z：有compress属性的 -v：显示所有过程 -O：将文件解开到标准输出  下面的参数-f是必须的 - -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。\ntar -cf all.tar *.jpg 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。\ntar -rf all.tar *.gif 这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。\ntar -uf all.tar logo.gif 这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。\ntar -tf all.tar 这条命令是列出all.tar包中所有文件，-t是列出文件的意思\ntar -xf all.tar 这条命令是解出all.tar包中所有文件，-t是解开的意思\n压缩 tar -cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpg\ntar -czf jpg.tar.gz *.jpg//将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz\ntar -cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2\ntar -cZf jpg.tar.Z *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z\nrar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar for linux\nzip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux\n解压 tar -xvf file.tar //解压 tar包\ntar -xzvf file.tar.gz //解压tar.gz\ntar -xjvf file.tar.bz2 //解压 tar.bz2\ntar -xZvf file.tar.Z //解压tar.Z\nunrar e file.rar //解压rar\nunzip file.zip //解压zip\n总结 1、*.tar 用 tar -xvf 解压\n2、*.gz 用 gzip -d或者gunzip 解压\n3、.tar.gz和.tgz 用 tar -xzf 解压\n4、*.bz2 用 bzip2 -d或者用bunzip2 解压\n5、*.tar.bz2用tar -xjf 解压\n6、*.Z 用 uncompress 解压\n7、*.tar.Z 用tar -xZf 解压\n8、*.rar 用 unrar e解压\n9、*.zip 用 unzip 解压\n"
 },
 {
 	"uri": "https://mcoo.me/en/series/go-web-dev/",
@@ -162,7 +207,7 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/categories/golang/",
+	"uri": "https://mcoo.me/en/tags/golang/",
 	"title": "golang",
 	"tags": [],
 	"categories": [],
@@ -171,7 +216,7 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/tags/golang/",
+	"uri": "https://mcoo.me/en/categories/golang/",
 	"title": "golang",
 	"tags": [],
 	"categories": [],

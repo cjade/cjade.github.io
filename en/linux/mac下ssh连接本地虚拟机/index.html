@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Linux下的tar压缩解压缩命令详解 – 蜗牛</title>
+    <title>Mac下SSH连接本地虚拟机 – 蜗牛</title>
     
 
 <script>
@@ -195,13 +195,13 @@
 
 
     <meta name="description" content="" />
-<meta name="created" content="2019-12-03T00:00:00&#43;0000">
-<meta name="modified" content="2019-12-03T00:00:00&#43;0000">
+<meta name="created" content="2019-12-05T00:00:00&#43;0000">
+<meta name="modified" content="2019-12-05T00:00:00&#43;0000">
 
 
 <meta property="og:site_name" content="蜗牛">
-<meta property="og:title" content="Linux下的tar压缩解压缩命令详解">
-<meta property="og:url" content="https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/">
+<meta property="og:title" content="Mac下SSH连接本地虚拟机">
+<meta property="og:url" content="https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.58.3" />
@@ -209,19 +209,19 @@
 <meta name="theme-color" content="#ffffff">
 
 
-<link rel="canonical" href="https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/">
+<link rel="canonical" href="https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Linux下的tar压缩解压缩命令详解",
-    "datePublished": "2019-12-03T00:00:00Z",
-    "dateModified": "2019-12-03T00:00:00Z",
-    "url" : "https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/",
-    "description": "tar -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件 这五个是独立的命令，压缩解压都要用到其中一",
-    "keywords": ["linux"],
+    "headline": "Mac下SSH连接本地虚拟机",
+    "datePublished": "2019-12-05T00:00:00Z",
+    "dateModified": "2019-12-05T00:00:00Z",
+    "url" : "https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/",
+    "description": "1、连接拒绝 $ ssh jade@172.16.50.129 结果 ssh: connect to host 172.16.50.129 port 22: Connection refused 2、检查虚拟机的SSH服务是否开启 $ ps -e | grep ssh 结果 1419 ? 00:00:00 ssh-agent 只出 …",
+    "keywords": ["linux","Vmware","Ubuntu","ssh"],
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://mcoo.me/"
@@ -420,7 +420,7 @@
   
   <li  class="is-active" >    
     
-      <a href="https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/">Linux下的tar压缩解压缩命令详解</a>
+      <a href="https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/">Mac下SSH连接本地虚拟机</a>
         
   </li>
   
@@ -429,9 +429,9 @@
 </nav>
   
   <div class="single">
-    <h2 class="single__title">Linux下的tar压缩解压缩命令详解</h2>
+    <h2 class="single__title">Mac下SSH连接本地虚拟机</h2>
     <div class="single__meta">
-      🕓 Dec 3, 2019 · ☕2 min read
+      🕓 Dec 5, 2019 · ☕1 min read
       <div class="single__tags caption">
 
   
@@ -445,101 +445,86 @@
   </li>
     
 
+  
+  
+  <li>
+    <a href="/en/tags/vmware" class="single__tag">
+      #Vmware
+    </a>
+  </li>
+    
+
+  
+  
+  <li>
+    <a href="/en/tags/ubuntu" class="single__tag">
+      #Ubuntu
+    </a>
+  </li>
+    
+
+  
+  
+  <li>
+    <a href="/en/tags/ssh" class="single__tag">
+      #ssh
+    </a>
+  </li>
+    
+
 </div>
     </div>    
     <article class="single__contents">
-      
+      <p>1、连接拒绝</p>
 
-<h1 id="tar">tar</h1>
+<pre><code>$ ssh jade@172.16.50.129
+</code></pre>
 
-<ul>
-<li>-c: 建立压缩档案</li>
-<li>-x：解压</li>
-<li>-t：查看内容</li>
-<li>-r：向压缩归档文件末尾追加文件</li>
-<li>-u：更新原压缩包中的文件</li>
-</ul>
+<p>结果</p>
 
-<p>这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。</p>
+<pre><code>ssh: connect to host 172.16.50.129 port 22: Connection refused
+</code></pre>
 
-<ul>
-<li>-z：有gzip属性的</li>
-<li>-j：有bz2属性的</li>
-<li>-Z：有compress属性的</li>
-<li>-v：显示所有过程</li>
-<li>-O：将文件解开到标准输出</li>
-</ul>
+<p>2、检查虚拟机的SSH服务是否开启</p>
 
-<p>下面的参数-f是必须的
-- -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。</p>
+<pre><code>$ ps -e | grep ssh
+</code></pre>
 
-<h3 id="tar-cf-all-tar-jpg">tar -cf all.tar *.jpg</h3>
+<p>结果</p>
 
-<p>这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。</p>
+<pre><code> 1419 ?        00:00:00 ssh-agent
+</code></pre>
 
-<h3 id="tar-rf-all-tar-gif">tar -rf all.tar *.gif</h3>
+<p>只出现ssh-agent则没有开启ssh</p>
 
-<p>这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。</p>
+<p>3、开启SSH服务</p>
 
-<h3 id="tar-uf-all-tar-logo-gif">tar -uf all.tar logo.gif</h3>
+<pre><code>$ sudo service ssh start
+</code></pre>
 
-<p>这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。</p>
+<p>结果</p>
 
-<h3 id="tar-tf-all-tar">tar -tf all.tar</h3>
+<pre><code>Failed to start ssh.service: Unit ssh.service not found.
+</code></pre>
 
-<p>这条命令是列出all.tar包中所有文件，-t是列出文件的意思</p>
+<p>没有ssh服务</p>
 
-<h3 id="tar-xf-all-tar">tar -xf all.tar</h3>
+<p>4、安装openssh-server</p>
 
-<p>这条命令是解出all.tar包中所有文件，-t是解开的意思</p>
+<pre><code>$ sudo apt-get install openssh-server
+</code></pre>
 
-<h3 id="压缩">压缩</h3>
+<p>安装完毕再次执行<code>sudo service ssh start</code>启动ssh服务</p>
 
-<p>tar -cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpg</p>
+<p>5、开启成功</p>
 
-<p>tar -czf jpg.tar.gz *.jpg//将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz</p>
+<p><img src="/images/Linux/seesshopen.png" alt="image" /></p>
 
-<p>tar -cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2</p>
+<p>6、再次连接虚拟机</p>
 
-<p>tar -cZf jpg.tar.Z *.jpg   //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z</p>
+<p><img src="/images/Linux/sshconnection.png" alt="image" /></p>
 
-<p>rar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar for linux</p>
-
-<p>zip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux</p>
-
-<h3 id="解压">解压</h3>
-
-<p>tar -xvf file.tar //解压 tar包</p>
-
-<p>tar -xzvf file.tar.gz //解压tar.gz</p>
-
-<p>tar -xjvf file.tar.bz2   //解压 tar.bz2</p>
-
-<p>tar -xZvf file.tar.Z   //解压tar.Z</p>
-
-<p>unrar e file.rar //解压rar</p>
-
-<p>unzip file.zip //解压zip</p>
-
-<h3 id="总结">总结</h3>
-
-<p>1、*.tar 用 tar -xvf 解压</p>
-
-<p>2、*.gz 用 gzip -d或者gunzip 解压</p>
-
-<p>3、<em>.tar.gz和</em>.tgz 用 tar -xzf 解压</p>
-
-<p>4、*.bz2 用 bzip2 -d或者用bunzip2 解压</p>
-
-<p>5、*.tar.bz2用tar -xjf 解压</p>
-
-<p>6、*.Z 用 uncompress 解压</p>
-
-<p>7、*.tar.Z 用tar -xZf 解压</p>
-
-<p>8、*.rar 用 unrar e解压</p>
-
-<p>9、*.zip 用 unzip 解压</p>
+<p>成功、结束。</p>
 
     </article>
     
@@ -604,25 +589,37 @@
     <aside class="related">
     
     
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        See Also
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/" class="related__link">实现VMware运行Ubuntu与宿主机互相复制粘贴</a>
+        </li>
+        
+        <li>
+          <a href="/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/" class="related__link">Linux下的tar压缩解压缩命令详解</a>
+        </li>
+        
+    </ul>
+    
 </aside>
     <div class="grow"></div>
 <nav class="pagination-single">
   
-    <a href="https://mcoo.me/en/post/%E6%88%91%E6%9D%A5%E4%B9%9F/" class="pagination-single__left">
+    <a href="https://mcoo.me/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/" class="pagination-single__left">
       <div class="pagination-single__icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
       </div>
-      <div class="pagination-single__left-title">我来也</div>      
+      <div class="pagination-single__left-title">实现VMware运行Ubuntu与宿主机互相复制粘贴</div>      
     </a>
   
   <div class="grow"></div>
-  
-    <a href="https://mcoo.me/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/" class="pagination-single__right">      
-      <div class="pagination-single__right-title">实现VMware运行Ubuntu与宿主机互相复制粘贴</div>
-      <div class="pagination-single__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-      </div>
-    </a>
   
 </nav>
     
@@ -1264,7 +1261,7 @@
         
         
           
-            <a href="https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/" data-lang="en" class="dropdown-item is-active">English</a>
+            <a href="https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/" data-lang="en" class="dropdown-item is-active">English</a>
           
         
       

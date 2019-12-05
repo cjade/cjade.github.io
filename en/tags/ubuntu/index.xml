@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linuxes on 蜗牛</title>
-    <link>https://mcoo.me/en/linux/</link>
-    <description>Recent content in Linuxes on 蜗牛</description>
+    <title>Ubuntu on 蜗牛</title>
+    <link>https://mcoo.me/en/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mcoo.me/en/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mcoo.me/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@
       
       <guid>https://mcoo.me/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/</guid>
       <description>使用Vmware虚拟机中，发现宿主机与虚拟机里面的内容无法互相复制粘贴。造成交互内容麻烦，尝试需要使用管理员权限打开虚拟机，这样就可以正常复</description>
-    </item>
-    
-    <item>
-      <title>Linux下的tar压缩解压缩命令详解</title>
-      <link>https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid>
-      <description>tar -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件 这五个是独立的命令，压缩解压都要用到其中一</description>
     </item>
     
   </channel>
