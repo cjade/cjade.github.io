@@ -6,10 +6,19 @@
     <description>Recent content in PHP on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mcoo.me/en/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>无需重新编译安装PHP扩展的方法</title>
+      <link>https://mcoo.me/en/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcoo.me/en/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的。以后只需要进入源码的ext目录，例如忘了zip</description>
+    </item>
     
     <item>
       <title>Linux 下PHP的编译安装与升级到PHP7.4</title>

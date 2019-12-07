@@ -53,6 +53,16 @@
   </url>
   
   <url>
+    <loc>https://mcoo.me/en/tags/php/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/categories/php/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mcoo.me/en/tags/php-fpm/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
@@ -83,22 +93,17 @@
   </url>
   
   <url>
+    <loc>https://mcoo.me/en/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mcoo.me/en/linux/%E8%A7%A3%E5%86%B3ubuntu%E7%9A%84apt-get%E5%91%BD%E4%BB%A4%E8%A2%AB%E5%8D%A0%E7%94%A8/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mcoo.me/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</loc>
-    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mcoo.me/en/categories/php/</loc>
-    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mcoo.me/en/tags/php/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url>
   
