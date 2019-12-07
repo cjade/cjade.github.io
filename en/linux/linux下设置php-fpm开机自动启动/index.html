@@ -533,6 +533,8 @@ esac
 exit 0
 </code></pre>
 
+<p>保存并退出</p>
+
 <p>3、更改权限</p>
 
 <pre><code>sudo chmod +x /etc/init.d/php-fpm
@@ -540,7 +542,8 @@ exit 0
 
 <p>4、加入服务</p>
 
-<pre><code>update-rc.d php-fpm defaults
+<pre><code>
+update-rc.d php-fpm defaults
  
 // 添加
 update-rc.d ServiceName defaults
