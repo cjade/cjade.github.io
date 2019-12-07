@@ -600,6 +600,11 @@ group = www-data
 
 <p><a href="https://mcoo.me/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/">Linux下设置php-fpm开机自动启动</a></p>
 
+<h4 id="启动php-fpm">启动PHP-FPM</h4>
+
+<pre><code>sudo service php-fpm start
+</code></pre>
+
 <h2 id="升级安装-php-至-7-4-0">升级安装 PHP 至 7.4.0</h2>
 
 <h3 id="备份配置文件">备份配置文件</h3>
@@ -612,7 +617,8 @@ group = www-data
 
 <h3 id="下载-1">下载</h3>
 
-<pre><code>cd /usr/local/src
+<pre><code>
+cd /usr/local/src
 
 wget https://www.php.net/distributions/php-7.4.0.tar.bz2
 </code></pre>
@@ -660,7 +666,7 @@ cp /usr/local/php-7.3.12/etc/php-fpm.d/www.conf  /usr/local/php/etc/php-fpm.d/ww
 
 </code></pre>
 
-<h3 id="启动php-fpm">启动php-fpm</h3>
+<h3 id="启动php-fpm-1">启动php-fpm</h3>
 
 <pre><code>sudo service php-fpm start
 </code></pre>
