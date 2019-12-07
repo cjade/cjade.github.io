@@ -35,7 +35,7 @@
       <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mcoo.me/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</guid>
-      <description>PHP的编译安装 官网下载 https://www.php.net/downloads.php &amp;gt; 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0 安装依赖 安装一些编译PHP所需要的依赖 sudo apt</description>
+      <description>PHP的编译安装 官网下载 https://www.php.net/downloads.php 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0 安装依赖 安装一些编译PHP所需要的依赖 sudo apt update</description>
     </item>
     
     <item>
