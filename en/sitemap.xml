@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://mcoo.me/en/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://mcoo.me/en/categories/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -34,32 +34,32 @@
   
   <url>
     <loc>https://mcoo.me/en/categories/linux/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mcoo.me/en/tags/linux/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mcoo.me/en/linux/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <loc>https://mcoo.me/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/ssh/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <loc>https://mcoo.me/en/tags/php-fpm/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mcoo.me/en/tags/</loc>
-    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -74,6 +74,46 @@
   
   <url>
     <loc>https://mcoo.me/en/tags/ubuntu/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/%E8%A7%A3%E5%86%B3ubuntu%E7%9A%84apt-get%E5%91%BD%E4%BB%A4%E8%A2%AB%E5%8D%A0%E7%94%A8/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/categories/php/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/tags/php/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/ubuntu%E5%BD%93%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4sudo-apt-install-sysv-rc-conf%E5%AE%89%E8%A3%85%E4%B8%8D%E4%B8%8A%E6%97%B6%E6%8F%90%E7%A4%BA-e-%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E8%BD%AF%E4%BB%B6%E5%8C%85%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcoo.me/en/tags/ssh/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   

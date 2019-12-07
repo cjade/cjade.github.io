@@ -45,17 +45,17 @@
 	"content": ""
 },
 {
-	"uri": "https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/",
-	"title": "Mac下SSH连接本地虚拟机",
-	"tags": ["linux", "Vmware", "Ubuntu", "ssh"],
+	"uri": "https://mcoo.me/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/",
+	"title": "Linux下设置php-fpm开机自动启动",
+	"tags": ["linux", "php-fpm"],
 	"categories": [],
 	"series": [],
 	"description": "",
-	"content": "1、连接拒绝\n$ ssh jade@172.16.50.129  结果\nssh: connect to host 172.16.50.129 port 22: Connection refused  2、检查虚拟机的SSH服务是否开启\n$ ps -e | grep ssh  结果\n 1419 ? 00:00:00 ssh-agent  只出现ssh-agent则没有开启ssh\n3、开启SSH服务\n$ sudo service ssh start  结果\nFailed to start ssh.service: Unit ssh.service not found.  没有ssh服务\n4、安装openssh-server\n$ sudo apt-get install openssh-server  安装完毕再次执行sudo service ssh start启动ssh服务\n5、开启成功\n6、再次连接虚拟机\n成功、结束。\n"
+	"content": "1、创建php-fpm文件\nvim /etc/init.d/php-fpm  然后加入下面的脚本：\n#!/bin/bash # # Startup script for the PHP-FPM server. # # chkconfig: 345 85 15 # description: PHP is an HTML-embedded scripting language # processname: php-fpm # config: /usr/local/php/etc/php.ini # Source function library. #用which php-fpm找到你文件的位置 PHP_PATH=/usr/local DESC=\u0026quot;php-fpm daemon\u0026quot; NAME=php-fpm # php-fpm路径 DAEMON=$PHP_PATH/php/sbin/$NAME # 配置文件路径 CONFIGFILE=$PHP_PATH/php/etc/php-fpm.conf # PID文件路径(在php-fpm.conf设置) PIDFILE=$PHP_PATH/php/var/run/$NAME.pid SCRIPTNAME=/etc/init.d/$NAME # Gracefully exit if the package has been removed. test -x $DAEMON || exit 0 rh_start() { $DAEMON -y $CONFIGFILE || echo -n \u0026quot; already running\u0026quot; } rh_stop() { kill -QUIT `cat $PIDFILE` || echo -n \u0026quot; not running\u0026quot; } rh_reload() { kill -HUP `cat $PIDFILE` || echo -n \u0026quot; can't reload\u0026quot; } case \u0026quot;$1\u0026quot; in start) echo -n \u0026quot;Starting $DESC: $NAME\u0026quot; rh_start echo \u0026quot;.\u0026quot; ;; stop) echo -n \u0026quot;Stopping $DESC: $NAME\u0026quot; rh_stop echo \u0026quot;.\u0026quot; ;; reload) echo -n \u0026quot;Reloading $DESC configuration...\u0026quot; rh_reload echo \u0026quot;reloaded.\u0026quot; ;; restart) echo -n \u0026quot;Restarting $DESC: $NAME\u0026quot; rh_stop sleep 1 rh_start echo \u0026quot;.\u0026quot; ;; *) echo \u0026quot;Usage: $SCRIPTNAME {start|stop|restart|reload}\u0026quot; \u0026gt;\u0026amp;2 exit 3 ;; esac exit 0  3、更改权限\nsudo chmod +x /etc/init.d/php-fpm  4、加入服务\nupdate-rc.d php-fpm defaults // 添加 update-rc.d ServiceName defaults // 删除 update-rc.d ServiceName remove  5、加入到开机启动项\n使用chkconfig 命令添加、删除和查看系统开机自启动服务\nchkconfig --list 显示开机可以自动启动的服务 chkconfig --add php-fpm 添加开机自动启动php-fpm服务 chkconfig --del php-fpm 删除开机自动启动php-fpm服务  Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig\n6、php-fpm命令\n service php-fpm start service php-fpm stop service php-fpm restart service php-fpm reload service php-fpm start /etc/init.d/php-fpm start /etc/init.d/php-fpm stop /etc/init.d/php-fpm restart /etc/init.d/php-fpm reload /etc/init.d/php-fpm start  "
 },
 {
-	"uri": "https://mcoo.me/en/tags/ssh/",
-	"title": "ssh",
+	"uri": "https://mcoo.me/en/tags/php-fpm/",
+	"title": "php-fpm",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -74,6 +74,78 @@
 {
 	"uri": "https://mcoo.me/en/tags/ubuntu/",
 	"title": "Ubuntu",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/",
+	"title": "Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig",
+	"tags": ["linux", "ubuntu"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": " 安装 sysv-rc-conf suod apt install sysv-rc-conf  执行 sysv-rc-conf命令 sysv-rc-conf  按空格选择 service 这一行表示运行级别\nLinux运行级别 在任何时候，Linux系统都跑在一个指定的运行级别上，并且在不同运行级别的程序和服务，所要完成的工作也不同。Linux系统可以在这些运行级别之间进行切换，以完成不同的工作。\n运行级别（Runlevel）是指Unix或者Linux等操作系统不同的运行模式，通常分为7等，从0到6。但如果必要的话也可以更多，例如，大多数linux操作系统，共有如下6个典型的运行级别：\nman runlevel 查看当前系统的运行级别 runlevel  切换运行级别 init [0123456Ss]  即在init命令后跟一个参数，此参数是要切换到的运行级的运行级代号，例如，用init 0命令关机，用init 6命令重新启动。\n"
+},
+{
+	"uri": "https://mcoo.me/en/linux/%E8%A7%A3%E5%86%B3ubuntu%E7%9A%84apt-get%E5%91%BD%E4%BB%A4%E8%A2%AB%E5%8D%A0%E7%94%A8/",
+	"title": "E: Could not get lock /var/lib/dpkg/lock-frontend - open",
+	"tags": ["linux", "Ubuntu"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": "在运行ubuntu的apt-get install命令时，经常遇到如下错误： 这个表示当前apt-get命令被占用，我们需要做的是杀死这些进程\n解决，使用ps 和 grep查找apt的pid,并使用kill杀死掉。 再次运行即可 完成、结束。\n"
+},
+{
+	"uri": "https://mcoo.me/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/",
+	"title": "Linux 下PHP的编译安装与升级到PHP7.4",
+	"tags": ["linux", "Ubuntu", "PHP"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": " PHP的编译安装 官网下载 https://www.php.net/downloads.php \u0026gt; 以php-7.3.12.tar.bz2 (sig) 为例\n下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2  解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0  安装依赖 安装一些编译PHP所需要的依赖\nsudo apt update sudo apt install gcc sudo apt install make sudo apt install openssl sudo apt install curl sudo apt install libbz2-dev sudo apt install libxml2-dev sudo apt install libjpeg-dev sudo apt install libpng-dev sudo apt install libfreetype6-dev sudo apt install libzip-dev  配置PHP 查看以前编译php所使用的编译参数 \u0026gt;php -i | grep configure\n./configure --prefix=/usr/local/php --enable-fpm  编译并安装 编译\nmake  安装\nsudo make install  复制php.ini配置文件 sudo cp php.ini-development /usr/local/php/php.ini #生成环境复制php.ini-production或者都复制php.ini-production  将 /usr/local/php/bin 添加到系统环境变量中，方便使用php和phpize等命令 vim /etc/profile #注：该配置对所有用户生效  在最后一行添加\nexport PATH=$PATH:/usr/local/php/bin  保存退出\nsource /etc/profile php -v  配置php-fpm 创建并设置php-fpm运行账号 groupadd www-data useradd -M -g www-data -s /sbin/nologin www-data  设置php-fpm 配置  cd /usr/local/php/etc sudo cp php-fpm.conf.default php-fpm.conf cd php-fpm.d/ sudo cp www.conf.default www.conf vim www.conf  搜索user设置运行账号：\nuser = www-data group = www-data  去掉;pid = run/php-fpm.pid前的分号\npid = run/php-fpm.pid  保存退出\nPHP-FPM启动脚本设置 #!/bin/bash # # Startup script for the PHP-FPM server. # # chkconfig: 345 85 15 # description: PHP is an HTML-embedded scripting language # processname: php-fpm # config: /usr/local/php/etc/php.ini # Source function library. #用which php-fpm找到你文件的位置 PHP_PATH=/usr/local DESC=\u0026quot;php-fpm daemon\u0026quot; NAME=php-fpm # php-fpm路径 DAEMON=$PHP_PATH/php/sbin/$NAME # 配置文件路径 CONFIGFILE=$PHP_PATH/php/etc/php-fpm.conf # PID文件路径(在php-fpm.conf设置) PIDFILE=$PHP_PATH/php/var/run/$NAME.pid SCRIPTNAME=/etc/init.d/$NAME # Gracefully exit if the package has been removed. test -x $DAEMON || exit 0 rh_start() { $DAEMON -y $CONFIGFILE || echo -n \u0026quot; already running\u0026quot; } rh_stop() { kill -QUIT `cat $PIDFILE` || echo -n \u0026quot; not running\u0026quot; } rh_reload() { kill -HUP `cat $PIDFILE` || echo -n \u0026quot; can't reload\u0026quot; } case \u0026quot;$1\u0026quot; in start) echo -n \u0026quot;Starting $DESC: $NAME\u0026quot; rh_start echo \u0026quot;.\u0026quot; ;; stop) echo -n \u0026quot;Stopping $DESC: $NAME\u0026quot; rh_stop echo \u0026quot;.\u0026quot; ;; reload) echo -n \u0026quot;Reloading $DESC configuration...\u0026quot; rh_reload echo \u0026quot;reloaded.\u0026quot; ;; restart) echo -n \u0026quot;Restarting $DESC: $NAME\u0026quot; rh_stop sleep 1 rh_start echo \u0026quot;.\u0026quot; ;; *) echo \u0026quot;Usage: $SCRIPTNAME {start|stop|restart|reload}\u0026quot; \u0026gt;\u0026amp;2 exit 3 ;; esac exit 0  更改权限\nsudo chmod +x /etc/init.d/php-fpm  在 ubuntu 中，添加服务除了需要把文件copy 到 /etc/init.d/ 目录下之外，还需要使用以下命令\nupdate-rc.d php-fpm defaults // 添加 update-rc.d ServiceName defaults // 删除 update-rc.d ServiceName remove  启动、停止、重启、重新加载命令\n service php-fpm start service php-fpm stop service php-fpm restart service php-fpm reload /etc/init.d/php-fpm start /etc/init.d/php-fpm stop /etc/init.d/php-fpm restart /etc/init.d/php-fpm reload  升级安装 PHP 至 7.4.0 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.4.0.tar.bz2  解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0  配置PHP 查看以前编译php所使用的编译参数 \u0026gt;php -i | grep configure\n./configure --prefix=/usr/local/php --enable-fpm  编译并安装 编译\nmake  安装\nsudo make install  "
+},
+{
+	"uri": "https://mcoo.me/en/categories/php/",
+	"title": "PHP",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/tags/php/",
+	"title": "PHP",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mcoo.me/en/linux/ubuntu%E5%BD%93%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4sudo-apt-install-sysv-rc-conf%E5%AE%89%E8%A3%85%E4%B8%8D%E4%B8%8A%E6%97%B6%E6%8F%90%E7%A4%BA-e-%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E8%BD%AF%E4%BB%B6%E5%8C%85%E9%97%AE%E9%A2%98/",
+	"title": "ubuntu当使用命令sudo apt install sysv-rc-conf安装不上时，提示“ E: 无法定位软件包问题",
+	"tags": ["linux", "ubuntu"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": "1、进入 /etc/apt\n2、 使用vim sources.list命令 在里面sources.list 添加镜像源 deb http://archive.ubuntu.com/ubuntu/ trusty main universe restricted multiverse\n3、然后 sudo apt-get update\n4、 sudo apt install sysv-rc-conf 接着安装就可以了\n"
+},
+{
+	"uri": "https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/",
+	"title": "Mac下SSH连接本地虚拟机",
+	"tags": ["linux", "Vmware", "Ubuntu", "ssh"],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": "1、连接拒绝\n$ ssh jade@172.16.50.129  结果\nssh: connect to host 172.16.50.129 port 22: Connection refused  2、检查虚拟机的SSH服务是否开启\n$ ps -e | grep ssh  结果\n 1419 ? 00:00:00 ssh-agent  只出现ssh-agent则没有开启ssh\n3、开启SSH服务\n$ sudo service ssh start  结果\nFailed to start ssh.service: Unit ssh.service not found.  没有ssh服务\n4、安装openssh-server\n$ sudo apt-get install openssh-server  安装完毕再次执行sudo service ssh start启动ssh服务\n5、开启成功\n6、再次连接虚拟机\n成功、结束。\n"
+},
+{
+	"uri": "https://mcoo.me/en/tags/ssh/",
+	"title": "ssh",
 	"tags": [],
 	"categories": [],
 	"series": [],
