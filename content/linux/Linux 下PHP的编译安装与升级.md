@@ -17,6 +17,7 @@ categories = [
 
 
 
+
 ## PHP的编译安装
 ### 官网下载
 https://www.php.net/downloads.php
@@ -131,6 +132,11 @@ pid = run/php-fpm.pid
 #### PHP-FPM启动脚本设置
 [Linux下设置php-fpm开机自动启动](https://mcoo.me/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/)
 
+#### 启动PHP-FPM
+```
+sudo service php-fpm start
+```
+
 ## 升级安装 PHP 至 7.4.0
 
 ### 备份配置文件
@@ -142,6 +148,7 @@ sudo mv /usr/local/php /usr/local/php-7.3.12
 
 ### 下载
 ```
+
 cd /usr/local/src
 
 wget https://www.php.net/distributions/php-7.4.0.tar.bz2
@@ -192,5 +199,7 @@ cp /usr/local/php-7.3.12/etc/php-fpm.d/www.conf  /usr/local/php/etc/php-fpm.d/ww
 sudo service php-fpm start
 ```
 完成。
+
+
 
 

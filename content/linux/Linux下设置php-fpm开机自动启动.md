@@ -86,6 +86,7 @@ case "$1" in
 esac
 exit 0
 ```
+保存并退出
 
 3、更改权限
 ```
@@ -94,6 +95,7 @@ sudo chmod +x /etc/init.d/php-fpm
 4、加入服务
 
 ```
+
 update-rc.d php-fpm defaults
  
 // 添加
