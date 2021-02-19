@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>themes on 蜗牛</title>
@@ -6,15 +6,11 @@
     <description>Recent content in themes on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-<<<<<<< HEAD
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cjade.github.io/en/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     
     
-=======
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://cjade.github.io/en/tags/themes/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
     <item>
       <title>(Hu)go Template Primer</title>
       <link>https://cjade.github.io/en/post/goisforlovers/</link>

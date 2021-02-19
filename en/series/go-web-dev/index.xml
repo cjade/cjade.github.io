@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go Web Dev on 蜗牛</title>
@@ -6,15 +6,11 @@
     <description>Recent content in Go Web Dev on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-<<<<<<< HEAD
     <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://cjade.github.io/en/series/go-web-dev/index.xml" rel="self" type="application/rss+xml" />
     
     
-=======
-    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0800</lastBuildDate><atom:link href="https://cjade.github.io/en/series/go-web-dev/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
     <item>
       <title>我来也</title>
       <link>https://cjade.github.io/en/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</link>
