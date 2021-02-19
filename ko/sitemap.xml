@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mcoo.me/ko/categories/</loc>
+    <loc>https://cjade.github.io/ko/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/categories/"
+                href="https://cjade.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/categories/"
+                href="https://cjade.github.io/ko/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/ko/series/</loc>
+    <loc>https://cjade.github.io/ko/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/series/"
+                href="https://cjade.github.io/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/series/"
+                href="https://cjade.github.io/ko/series/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/ko/tags/</loc>
+    <loc>https://cjade.github.io/ko/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/tags/"
+                href="https://cjade.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/tags/"
+                href="https://cjade.github.io/ko/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/ko/</loc>
+    <loc>https://cjade.github.io/ko/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/"
+                href="https://cjade.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/"
+                href="https://cjade.github.io/ko/"
                 />
   </url>
   

@@ -13,7 +13,7 @@
     
     var searchLanguages = JSON.parse("[\"en\"]");
     
-        var baseurl = "https:\/\/mcoo.me\/\/en";
+        var baseurl = "https:\/\/cjade.github.io\/en";
     
 
     if (!searchLanguages) {
@@ -201,15 +201,15 @@
 
 <meta property="og:site_name" content="蜗牛">
 <meta property="og:title" content="Getting Started with Hugo">
-<meta property="og:url" content="https://mcoo.me/en/post/hugoisforlovers/">
+<meta property="og:url" content="https://cjade.github.io/en/post/hugoisforlovers/">
 <meta property="og:type" content="article">
-<meta property="og:image" content="https://mcoo.me/stuck.jpg">
-<meta name="generator" content="Hugo 0.58.3" />
+<meta property="og:image" content="https://cjade.github.io/stuck.jpg">
+<meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
 
-<link rel="canonical" href="https://mcoo.me/en/post/hugoisforlovers/">
+<link rel="canonical" href="https://cjade.github.io/en/post/hugoisforlovers/">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <script type="application/ld+json">
@@ -219,18 +219,18 @@
     "headline": "Getting Started with Hugo",
     "datePublished": "2014-04-02T00:00:00Z",
     "dateModified": "2014-04-02T00:00:00Z",
-    "url" : "https://mcoo.me/en/post/hugoisforlovers/",
+    "url" : "https://cjade.github.io/en/post/hugoisforlovers/",
     "description": "Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture. Save it somewhere specific as we will be using it in the next …",
     "keywords": ["go","golang","hugo","development"],
-    "image" : "https://mcoo.me/stuck.jpg",
+    "image" : "https://cjade.github.io/stuck.jpg",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mcoo.me/"
+      "@id": "https://cjade.github.io"
     },
     "publisher": {
       "@type": "Organization",
       "name": "蜗牛",
-      "url": "https://mcoo.me/"
+      "url": "https://cjade.github.io"
     }
   }
 </script>
@@ -407,21 +407,21 @@
   
   <li >    
     
-      <a href="https://mcoo.me/en/">蜗牛</a>            
+      <a href="https://cjade.github.io/en/">蜗牛</a>            
         
   </li>
   
   
   <li >    
     
-      <a href="https://mcoo.me/en/post/">Posts</a>
+      <a href="https://cjade.github.io/en/post/">Posts</a>
         
   </li>
   
   
   <li  class="is-active" >    
     
-      <a href="https://mcoo.me/en/post/hugoisforlovers/">Getting Started with Hugo</a>
+      <a href="https://cjade.github.io/en/post/hugoisforlovers/">Getting Started with Hugo</a>
         
   </li>
   
@@ -476,33 +476,22 @@
 </div>
     </div>    
     <article class="single__contents">
-      
-
-<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-
+      <h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
 <p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
 appropriate version for your OS and architecture.</p>
-
 <p>Save it somewhere specific as we will be using it in the next step.</p>
-
 <p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
-
 <h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-
 <p>Hugo has its own example site which happens to also be the documentation site
 you are reading right now.</p>
-
 <p>Follow the following steps:</p>
-
 <ol>
 <li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
 <li>Go into the repo</li>
 <li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to <a href="http://localhost:1313">http://localhost:1313</a></li>
+<li>Open your browser to http://localhost:1313</li>
 </ol>
-
 <p>Corresponding pseudo commands:</p>
-
 <pre><code>git clone https://github.com/spf13/hugo
 cd hugo
 /path/to/where/you/installed/hugo server --source=./docs
@@ -512,15 +501,10 @@ cd hugo
 &gt; Web Server is available at http://localhost:1313
 &gt; Press ctrl+c to stop
 </code></pre>
-
 <p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-
 <h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-
 <p>Stop the Hugo process by hitting Ctrl+C.</p>
-
 <p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-
 <pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
 &gt; 29 pages created
 &gt; 0 tags index created
@@ -529,30 +513,22 @@ cd hugo
 &gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
 &gt; Press ctrl+c to stop
 </code></pre>
-
 <p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
 content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-
 <p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
 are located at the same relative location as the url, in our case
 <code>docs/content/overview/quickstart.md</code>.</p>
-
 <p>Change and save this file.. Notice what happened in your terminal.</p>
-
 <pre><code>&gt; Change detected, rebuilding site
 
 &gt; 29 pages created
 &gt; 0 tags index created
 &gt; in 26 ms
 </code></pre>
-
 <p>Refresh the browser and observe that the typo is now fixed.</p>
-
 <p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building. I double dare you.
 Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
-
 <h2 id="step-4-have-fun">Step 4. Have fun</h2>
-
 <p>The best way to learn something is to play with it.</p>
 
     </article>
@@ -643,7 +619,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
   
   <div class="grow"></div>
   
-    <a href="https://mcoo.me/en/post/creating-a-new-theme/" class="pagination-single__right">      
+    <a href="https://cjade.github.io/en/post/creating-a-new-theme/" class="pagination-single__right">      
       <div class="pagination-single__right-title">Creating a New Theme</div>
       <div class="pagination-single__icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
@@ -1290,7 +1266,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
         
         
           
-            <a href="https://mcoo.me/en/post/hugoisforlovers/" data-lang="en" class="dropdown-item is-active">English</a>
+            <a href="https://cjade.github.io/en/post/hugoisforlovers/" data-lang="en" class="dropdown-item is-active">English</a>
           
         
       
@@ -1356,7 +1332,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
     <div class="footer__poweredby">
         
             <p class="caption">
-                &copy;2019, All Rights Reserved
+                ©2021, All Rights Reserved
             </p>
         
         <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" rel="noreferrer">Zzo theme</a></p>

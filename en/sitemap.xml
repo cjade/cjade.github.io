@@ -3,232 +3,232 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mcoo.me/en/</loc>
+    <loc>https://cjade.github.io/en/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/"
+                href="https://cjade.github.io/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/"
+                href="https://cjade.github.io/en/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/</loc>
+    <loc>https://cjade.github.io/en/categories/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/categories/"
+                href="https://cjade.github.io/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/categories/"
+                href="https://cjade.github.io/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/linux/</loc>
+    <loc>https://cjade.github.io/en/categories/linux/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/linux/</loc>
+    <loc>https://cjade.github.io/en/tags/linux/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/</loc>
+    <loc>https://cjade.github.io/en/linux/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/ssh/</loc>
+    <loc>https://cjade.github.io/en/tags/ssh/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/</loc>
+    <loc>https://cjade.github.io/en/tags/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/tags/"
+                href="https://cjade.github.io/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/tags/"
+                href="https://cjade.github.io/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/%E5%88%A9%E7%94%A8expect%E7%BC%96%E5%86%99%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E8%84%9A%E6%9C%AC/</loc>
+    <loc>https://cjade.github.io/en/linux/%E5%88%A9%E7%94%A8expect%E7%BC%96%E5%86%99%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/</loc>
+    <loc>https://cjade.github.io/en/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/php/</loc>
+    <loc>https://cjade.github.io/en/tags/php/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/php/</loc>
+    <loc>https://cjade.github.io/en/categories/php/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/php-fpm/</loc>
+    <loc>https://cjade.github.io/en/tags/php-fpm/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/ubuntu/</loc>
+    <loc>https://cjade.github.io/en/tags/ubuntu/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/</loc>
+    <loc>https://cjade.github.io/en/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://cjade.github.io/en/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/%E8%A7%A3%E5%86%B3ubuntu%E7%9A%84apt-get%E5%91%BD%E4%BB%A4%E8%A2%AB%E5%8D%A0%E7%94%A8/</loc>
+    <loc>https://cjade.github.io/en/linux/%E8%A7%A3%E5%86%B3ubuntu%E7%9A%84apt-get%E5%91%BD%E4%BB%A4%E8%A2%AB%E5%8D%A0%E7%94%A8/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</loc>
+    <loc>https://cjade.github.io/en/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/ubuntu%E5%BD%93%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4sudo-apt-install-sysv-rc-conf%E5%AE%89%E8%A3%85%E4%B8%8D%E4%B8%8A%E6%97%B6%E6%8F%90%E7%A4%BA-e-%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E8%BD%AF%E4%BB%B6%E5%8C%85%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://cjade.github.io/en/linux/ubuntu%E5%BD%93%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4sudo-apt-install-sysv-rc-conf%E5%AE%89%E8%A3%85%E4%B8%8D%E4%B8%8A%E6%97%B6%E6%8F%90%E7%A4%BA-e-%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E8%BD%AF%E4%BB%B6%E5%8C%85%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <loc>https://cjade.github.io/en/linux/mac%E4%B8%8Bssh%E8%BF%9E%E6%8E%A5%E6%9C%AC%E5%9C%B0%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/vmware/</loc>
+    <loc>https://cjade.github.io/en/tags/vmware/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/</loc>
+    <loc>https://cjade.github.io/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</loc>
+    <loc>https://cjade.github.io/en/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/series/go-web-dev/</loc>
+    <loc>https://cjade.github.io/en/series/go-web-dev/</loc>
     <lastmod>2019-11-29T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/post/</loc>
+    <loc>https://cjade.github.io/en/post/</loc>
     <lastmod>2019-11-29T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/series/</loc>
+    <loc>https://cjade.github.io/en/series/</loc>
     <lastmod>2019-11-29T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://mcoo.me/ko/series/"
+                href="https://cjade.github.io/ko/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mcoo.me/en/series/"
+                href="https://cjade.github.io/en/series/"
                 />
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</loc>
+    <loc>https://cjade.github.io/en/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</loc>
     <lastmod>2019-11-29T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/about/</loc>
+    <loc>https://cjade.github.io/en/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/post/goisforlovers/</loc>
+    <loc>https://cjade.github.io/en/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/post/creating-a-new-theme/</loc>
+    <loc>https://cjade.github.io/en/post/creating-a-new-theme/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/development/</loc>
+    <loc>https://cjade.github.io/en/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/development/</loc>
+    <loc>https://cjade.github.io/en/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/post/hugoisforlovers/</loc>
+    <loc>https://cjade.github.io/en/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/go/</loc>
+    <loc>https://cjade.github.io/en/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/golang/</loc>
+    <loc>https://cjade.github.io/en/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/categories/golang/</loc>
+    <loc>https://cjade.github.io/en/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/hugo/</loc>
+    <loc>https://cjade.github.io/en/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/templates/</loc>
+    <loc>https://cjade.github.io/en/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcoo.me/en/tags/themes/</loc>
+    <loc>https://cjade.github.io/en/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
