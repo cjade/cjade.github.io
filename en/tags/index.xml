@@ -2,120 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 蜗牛</title>
-    <link>https://mcoo.me/en/tags/</link>
+    <link>https://cjade.github.io/en/tags/</link>
     <description>Recent content in Tags on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mcoo.me/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cjade.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>linux</title>
-      <link>https://mcoo.me/en/tags/linux/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Centos</title>
+      <link>https://cjade.github.io/en/tags/centos/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/linux/</guid>
+      <guid>https://cjade.github.io/en/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://cjade.github.io/en/tags/linux/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cjade.github.io/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://cjade.github.io/en/tags/vim/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cjade.github.io/en/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://mcoo.me/en/tags/ssh/</link>
+      <link>https://cjade.github.io/en/tags/ssh/</link>
       <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/ssh/</guid>
+      <guid>https://cjade.github.io/en/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PHP</title>
-      <link>https://mcoo.me/en/tags/php/</link>
+      <link>https://cjade.github.io/en/tags/php/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/php/</guid>
+      <guid>https://cjade.github.io/en/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php-fpm</title>
-      <link>https://mcoo.me/en/tags/php-fpm/</link>
+      <link>https://cjade.github.io/en/tags/php-fpm/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/php-fpm/</guid>
+      <guid>https://cjade.github.io/en/tags/php-fpm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://mcoo.me/en/tags/ubuntu/</link>
+      <title>ubuntu</title>
+      <link>https://cjade.github.io/en/tags/ubuntu/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/ubuntu/</guid>
+      <guid>https://cjade.github.io/en/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vmware</title>
-      <link>https://mcoo.me/en/tags/vmware/</link>
+      <link>https://cjade.github.io/en/tags/vmware/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/vmware/</guid>
+      <guid>https://cjade.github.io/en/tags/vmware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://mcoo.me/en/tags/development/</link>
+      <link>https://cjade.github.io/en/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/development/</guid>
+      <guid>https://cjade.github.io/en/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://mcoo.me/en/tags/go/</link>
+      <link>https://cjade.github.io/en/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/go/</guid>
+      <guid>https://cjade.github.io/en/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://mcoo.me/en/tags/golang/</link>
+      <link>https://cjade.github.io/en/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/golang/</guid>
+      <guid>https://cjade.github.io/en/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://mcoo.me/en/tags/hugo/</link>
+      <link>https://cjade.github.io/en/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/hugo/</guid>
+      <guid>https://cjade.github.io/en/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://mcoo.me/en/tags/templates/</link>
+      <link>https://cjade.github.io/en/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/templates/</guid>
+      <guid>https://cjade.github.io/en/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://mcoo.me/en/tags/themes/</link>
+      <link>https://cjade.github.io/en/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mcoo.me/en/tags/themes/</guid>
+      <guid>https://cjade.github.io/en/tags/themes/</guid>
       <description></description>
     </item>
     
