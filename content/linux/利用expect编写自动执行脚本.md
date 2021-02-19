@@ -51,7 +51,7 @@ set password yourpassword
 spawn ssh root@ip
 #根据输出传递数据
 expect {
-    -re "password" {send "666666\r"}
+    -re "password" {send "$password\r"}
     -re "yes/no" {send "yes\n";exp_continue} # 有的时候输入几次密码来确认,exp_continue
 }
 #保持在远端  
