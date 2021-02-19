@@ -1,6 +1,6 @@
 baseURL = "https://mcoo.me/" # The URL of your site.
 title = "蜗牛" # Title of your site
-theme = "蜗牛" # Name of Zzo theme folder in `themes/`.
+theme = "zzo" # Name of Zzo theme folder in `themes/`.
 subtitle = "我要一步一步往上爬."
 
 defaultContentLanguage = "en" # Default language to use (if you setup multilingual support)
