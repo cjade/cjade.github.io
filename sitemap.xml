@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<<<<<<< HEAD
 	
 	<sitemap>
 	   	<loc>https://cjade.github.io/en/sitemap.xml</loc>
@@ -13,4 +14,19 @@
 		
 	</sitemap>
 	
+=======
+  
+  <sitemap>
+    <loc>https://cjade.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2019-12-08T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://cjade.github.io/ko/sitemap.xml</loc>
+    
+  </sitemap>
+  
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
 </sitemapindex>

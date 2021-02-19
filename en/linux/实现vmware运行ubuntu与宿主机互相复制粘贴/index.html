@@ -204,7 +204,7 @@
 <meta property="og:url" content="https://cjade.github.io/en/linux/%E5%AE%9E%E7%8E%B0vmware%E8%BF%90%E8%A1%8Cubuntu%E4%B8%8E%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BA%92%E7%9B%B8%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
@@ -467,15 +467,22 @@
     </div>    
     <article class="single__contents">
       <p>使用Vmware虚拟机中，发现宿主机与虚拟机里面的内容无法互相复制粘贴。造成交互内容麻烦，尝试需要使用管理员权限打开虚拟机，这样就可以正常复制粘贴宿主机中的内容到虚拟机中了。</p>
-
 <p>在Vmware虚拟机中执行下列命令</p>
-
-<pre><code class="language-bash">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">
 $ sudo apt-get autoremove open-vm-tools 
 $ sudo apt-get install open-vm-tools-desktop 
 $ reboot
-</code></pre>
-
+</code></pre></td></tr></table>
+</div>
+</div>
     </article>
     
 <div class="whoami__gutter"></div>
@@ -1284,7 +1291,11 @@ $ reboot
     <div class="footer__poweredby">
         
             <p class="caption">
+<<<<<<< HEAD
                 &copy;2021, All Rights Reserved
+=======
+                ©2021, All Rights Reserved
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
             </p>
         
         <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" rel="noreferrer">Zzo theme</a></p>

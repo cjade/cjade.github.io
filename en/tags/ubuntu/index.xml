@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>ubuntu on 蜗牛</title>
     <link>https://cjade.github.io/en/tags/ubuntu/</link>
     <description>Recent content in ubuntu on 蜗牛</description>
@@ -11,6 +12,14 @@
 	<atom:link href="https://cjade.github.io/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <title>Ubuntu on 蜗牛</title>
+    <link>https://cjade.github.io/en/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on 蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cjade.github.io/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
     <item>
       <title>Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig</title>
       <link>https://cjade.github.io/en/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 蜗牛</title>
@@ -6,11 +6,15 @@
     <description>Recent content in Tags on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cjade.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+=======
+    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cjade.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
     <item>
       <title>Centos</title>
       <link>https://cjade.github.io/en/tags/centos/</link>
@@ -23,6 +27,7 @@
     <item>
       <title>linux</title>
       <link>https://cjade.github.io/en/tags/linux/</link>
+<<<<<<< HEAD
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://cjade.github.io/en/tags/linux/</guid>
@@ -35,6 +40,11 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://cjade.github.io/en/tags/vim/</guid>
+=======
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cjade.github.io/en/tags/linux/</guid>
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
       <description></description>
     </item>
     
@@ -66,7 +76,11 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>ubuntu</title>
+=======
+      <title>Ubuntu</title>
+>>>>>>> 71b78d567dd3db9682cd2ec89ca9795dc6aba12b
       <link>https://cjade.github.io/en/tags/ubuntu/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
