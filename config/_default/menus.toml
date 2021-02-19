@@ -14,7 +14,7 @@
   identifier = "archive"
   name = "archive"
   url = "archive"
-  weight = 5
+  weight = 2
 
 [[main]]
   identifier = "gallery"

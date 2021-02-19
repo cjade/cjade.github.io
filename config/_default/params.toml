@@ -4,10 +4,18 @@ custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/a
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 
 # header
-homeHeaderType = "text" # text, img, slide
+homeHeaderType = "slide" # text, img, slide
 
 # navbar
 enableThemeChange = true # site color theme
+
+
+
+enableUiAnimation = true
+enableAppbarSearchIcon = true
+enableSearchHighlight = true
+searchResultPosition = "side"
+tocPosition = "outer"
 
 # body
 enableBreadcrumb = true # breadcrumb for list, single page
@@ -20,10 +28,11 @@ archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
 
+
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "Jade"
 email = "jadegg@foxmail.com"
-whoami = "Web Developer"
+whoami = "📚Learner🌐Web Developer"
 useGravatar = false
 location = "ChengDu, SiChuan"
 #organization = "Hugo"
@@ -53,8 +62,8 @@ disqus_shortname = ""
 commento = false
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+  owner = "cjade"              # Your GitHub ID
+  repo = "cjade.github.io"               # The repo to store comments
   clientId = ""           # Your client ID
   clientSecret = ""       # Your client secret
 

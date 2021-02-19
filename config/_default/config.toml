@@ -1,9 +1,9 @@
-baseURL = "https://mcoo.me/" # The URL of your site.
+baseURL = "https://cjade.github.io" # The URL of your site.
 title = "蜗牛" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 subtitle = "我要一步一步往上爬."
 
-defaultContentLanguage = "en" # Default language to use (if you setup multilingual support)
+defaultContentLanguage = "" # Default language to use (if you setup multilingual support)
 defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
 hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 
@@ -14,6 +14,8 @@ timeout = 10000
 enableEmoji = true
 paginate = 13 # Number of items per page in paginated lists.
 rssLimit = 100
+
+enableGitInfo = true
 
 pygmentsOptions = "linenos=table"
 pygmentsUseClasses = true
