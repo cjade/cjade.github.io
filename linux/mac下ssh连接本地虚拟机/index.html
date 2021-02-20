@@ -603,25 +603,23 @@
 </nav>
     
   
-    <div id="comments-gitment"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  var gitment = new Gitment({
+    <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+<script>
+  var gitalk = new Gitalk({
     id: '2019-12-05 00:00:00 \u002b0000 UTC',
     title: 'Mac下SSH连接本地虚拟机',
-    link: decodeURI(location.href),
-    desc: '1、连接拒绝 $ ssh jade@172.16.50.129 结果 ssh: connect to host 172.16.50.129 port 22: Connection refused 2、检查虚拟机的SSH服务是否开启 $ ps -e | grep ssh 结果 1419 ? 00:00:00 ssh-agent 只出现ssh-agent则没有开启ssh 3',
-    owner: 'cjade',
+    clientID: 'c8b1a1e1c993339996ff',
+    clientSecret: 'f4b769f023e2f9e232fd7466a402e55ce1aaf6c2',
     repo: 'cjade.github.io',
-    oauth: {
-      client_id: 'c8b1a1e1c993339996ff',
-      client_secret: 'f4b769f023e2f9e232fd7466a402e55ce1aaf6c2'
-    }
+    owner: 'cjade',
+    admin: ['cjade'],
+    body: decodeURI(location.href)
   });
-  gitment.render('comments-gitment');
+  gitalk.render('gitalk-container');
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
   
 
     
