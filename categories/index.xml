@@ -1,51 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on 蜗牛</title>
-    <link>https://cjade.github.io/categories/</link>
+    <link>https://week8.fun/categories/</link>
     <description>Recent content in Categories on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
+    <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cjade.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://week8.fun/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Linux</title>
-      <link>https://cjade.github.io/categories/linux/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+
       
-      <guid>https://cjade.github.io/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PHP</title>
-      <link>https://cjade.github.io/categories/php/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>Linux</title>
+        <link>https://week8.fun/categories/linux/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/categories/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://cjade.github.io/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>PHP</title>
+        <link>https://week8.fun/categories/php/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/categories/php/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://cjade.github.io/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>Development</title>
+        <link>https://week8.fun/categories/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/categories/development/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/categories/golang/</guid>
-      <description></description>
-    </item>
+      <item>
+        <title>golang</title>
+        <link>https://week8.fun/categories/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/categories/golang/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

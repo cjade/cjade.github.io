@@ -1,141 +1,278 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on 蜗牛</title>
-    <link>https://cjade.github.io/tags/</link>
+    <link>https://week8.fun/tags/</link>
     <description>Recent content in Tags on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
+    <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cjade.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://week8.fun/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Centos</title>
-      <link>https://cjade.github.io/tags/centos/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+
       
-      <guid>https://cjade.github.io/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://cjade.github.io/tags/linux/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>Centos</title>
+        <link>https://week8.fun/tags/centos/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/centos/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://cjade.github.io/tags/vim/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>linux</title>
+        <link>https://week8.fun/tags/linux/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>https://cjade.github.io/tags/ssh/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>vim</title>
+        <link>https://week8.fun/tags/vim/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/vim/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PHP</title>
-      <link>https://cjade.github.io/tags/php/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>ssh</title>
+        <link>https://week8.fun/tags/ssh/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/ssh/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php-fpm</title>
-      <link>https://cjade.github.io/tags/php-fpm/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>PHP</title>
+        <link>https://week8.fun/tags/php/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/php/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/php-fpm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://cjade.github.io/tags/ubuntu/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>php-fpm</title>
+        <link>https://week8.fun/tags/php-fpm/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/php-fpm/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vmware</title>
-      <link>https://cjade.github.io/tags/vmware/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>Ubuntu</title>
+        <link>https://week8.fun/tags/ubuntu/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/ubuntu/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>development</title>
-      <link>https://cjade.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>Vmware</title>
+        <link>https://week8.fun/tags/vmware/</link>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/vmware/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://cjade.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>development</title>
+        <link>https://week8.fun/tags/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/development/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://cjade.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>go</title>
+        <link>https://week8.fun/tags/go/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/go/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://cjade.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>golang</title>
+        <link>https://week8.fun/tags/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/golang/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>https://cjade.github.io/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>hugo</title>
+        <link>https://week8.fun/tags/hugo/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/hugo/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://cjade.github.io/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <item>
+        <title>templates</title>
+        <link>https://week8.fun/tags/templates/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/templates/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
+      <item>
+        <title>themes</title>
+        <link>https://week8.fun/tags/themes/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/themes/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

@@ -1,33 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>PHP on 蜗牛</title>
-    <link>https://cjade.github.io/tags/php/</link>
+    <link>https://week8.fun/tags/php/</link>
     <description>Recent content in PHP on 蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
+    <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cjade.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://week8.fun/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>无需重新编译安装PHP扩展的方法</title>
-      <link>https://cjade.github.io/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+
       
-      <guid>https://cjade.github.io/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的。以后只需要进入源码的ext目录，例如忘了zip</description>
-    </item>
-    
-    <item>
-      <title>Linux 下PHP的编译安装与升级到PHP7.4</title>
-      <link>https://cjade.github.io/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      <item>
+        <title>无需重新编译安装PHP扩展的方法</title>
+        <link>https://week8.fun/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        <atom:modified>Sat, 07 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>https://week8.fun/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+        <description>编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的。以后只需要进入源码的ext目录，例如忘了zip</description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        <media:content url="https://week8.fun/image/Linux/Linux.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>php</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+            
+              <category>PHP</category>
+            
+          
+        
+        
+      </item>
       
-      <guid>https://cjade.github.io/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</guid>
-      <description>PHP的编译安装 官网下载 https://www.php.net/downloads.php 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0 安装依赖 安装一些编译PHP所需要的依赖 sudo apt update</description>
-    </item>
+      <item>
+        <title>Linux 下PHP的编译安装与升级到PHP7.4</title>
+        <link>https://week8.fun/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>https://week8.fun/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/</guid>
+        <description>PHP的编译安装 官网下载 https://www.php.net/downloads.php 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0 安装依赖 安装一些编译PHP所需要的依赖 sudo apt update</description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        <media:content url="https://week8.fun/image/Linux/Linux.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>Ubuntu</category>
+            
+          
+            
+              <category>PHP</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+            
+              <category>PHP</category>
+            
+          
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>
