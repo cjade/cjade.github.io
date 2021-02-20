@@ -118,7 +118,7 @@ chkconfig php-fpm on 来设置开机启动
 chkconfig --del php-fpm 删除开机自动启动php-fpm服务
 ```
 
-[Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig](https://week8.fun/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/)
+[Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig](/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/)
 
 6、php-fpm命令
 ```

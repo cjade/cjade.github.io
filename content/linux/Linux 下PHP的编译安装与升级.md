@@ -130,7 +130,7 @@ pid = run/php-fpm.pid
 保存退出
 
 #### PHP-FPM启动脚本设置
-[Linux下设置php-fpm开机自动启动](https://week8.fun/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/)
+[Linux下设置php-fpm开机自动启动](/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/)
 
 #### 启动PHP-FPM
 ```
