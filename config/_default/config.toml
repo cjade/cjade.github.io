@@ -1,4 +1,4 @@
-baseURL = "https://week8.fun" # The URL of your site.
+baseURL = "https://week8.fun/" # The URL of your site.
 title = "蜗牛" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 subtitle = "我要一步一步往上爬."
