@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Centos on 蜗牛</title>
+    <link>https://week8.fun/tags/centos/</link>
+    <description>Recent content in Centos on 蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://week8.fun/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos7下编译安装Vim8</title>
+      <link>https://week8.fun/linux/centos7%E4%B8%8B%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85vim8/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://week8.fun/linux/centos7%E4%B8%8B%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85vim8/</guid>
+      <description>安装依赖插件 为了使vim支持ruby、lua、perl、python2、python3编写的插件，在正式编译安装vim之前需要在系统中安装好</description>
+    </item>
+    
+  </channel>
+</rss>
