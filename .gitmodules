@@ -3,4 +3,4 @@
 	url = git@github.com:cjade/cjade.github.io.git
 [submodule "themes/zzo"]
 	path = themes/zzo
-	url = https://github.com/zzossig/hugo-theme-zzo.git
+	url =  git@gitee.com:cjade/hugo-theme-zzo.git
