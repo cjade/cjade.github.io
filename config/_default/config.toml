@@ -1,4 +1,4 @@
-baseURL = "https://cjade.github.io" # The URL of your site.
+baseURL = "https://week8.fun" # The URL of your site.
 title = "蜗牛" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 subtitle = "我要一步一步往上爬."
@@ -8,6 +8,8 @@ defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
 hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 
 summaryLength = 70
+
+viewportSize = "wide"
 
 copyright = "&copy;{year}, All Rights Reserved" # copyright symbol: $copy; current year: {year}
 timeout = 10000

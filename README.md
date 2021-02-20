@@ -12,5 +12,5 @@ hugo server --theme=zzo --buildDrafts
 ```
 ## 编译
 ```
-hugo --theme=zzo --baseUrl="https://cjade.github.io"
+hugo --theme=zzo --baseUrl="https://week8.fun"
 ```
