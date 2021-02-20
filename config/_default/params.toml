@@ -1,5 +1,5 @@
 logoText = "蜗牛" # site navigation bar logo text.
-description = "蜗牛" # for SEO
+description = "蜗牛,php,go,golang,linux,mysql" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 
@@ -62,8 +62,8 @@ disqus_shortname = ""
 commento = false
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = "cjade"              # Your GitHub ID
-  repo = "cjade.github.io"               # The repo to store comments
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
   clientId = ""           # Your client ID
   clientSecret = ""       # Your client secret
 
@@ -72,10 +72,12 @@ commento = false
   repo = ""               # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
+  owner = "cjade"              # Your GitHub ID
+  repo = "cjade.github.io"               # The repo to store comments
+  clientId = "c8b1a1e1c993339996ff"           # Your client ID
+  clientSecret = "f4b769f023e2f9e232fd7466a402e55ce1aaf6c2"       # Your client secret
+  language = "zh-CN"
+  proxy = "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
 
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
