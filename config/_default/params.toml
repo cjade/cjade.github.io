@@ -123,3 +123,12 @@ commento = false
   linkedin = ""
   pinterest = ""
   stack-exchange = ""
+
+
+[[share]]
+  name = "facebook"
+  username = ""
+[[share]]
+  name = "twitter"
+[[share]]
+  name = "weibo"
