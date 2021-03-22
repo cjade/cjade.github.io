@@ -9,6 +9,12 @@
   name = "Linux"
   url = "categories/linux"
   weight = 2
+  
+  [[main]]
+  identifier = "Redis"
+  name = "Redis"
+  url = "categories/Redis"
+  weight = 3
 
 [[main]]
   identifier = "archive"
