@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:cjade/cjade.github.io.git
+	url = git@git.zhlh6.cn:cjade/cjade.github.io.git
 [submodule "themes/zzo"]
 	path = themes/zzo
 	url = git@gitee.com:cjade/hugo-theme-zzo.git
