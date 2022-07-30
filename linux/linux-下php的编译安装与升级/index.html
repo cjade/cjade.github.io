@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr ">
 
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="linux , Ubuntu , PHP7.4 , PHP" name="keywords">
+    <meta content="蜗牛,php,go,golang,linux,mysql,redis - Linux 下PHP的编译安装与升级到PHP7.4" property="og:description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Linux 下PHP的编译安装与升级到PHP7.4 – 蜗牛</title>
     
@@ -18,9 +20,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1315,15 +1317,15 @@
     }
   
   });
-</script>    
-    
+</script> 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
 
+ 
+<meta name="description" content="Linux 下PHP的编译安装与升级到PHP7.4" />
 
-    
-<meta name="description" content="" />
+<meta name="keywords" content="linux,Ubuntu,PHP7.4,PHP">
 
 
 <meta name="keywords" content="linux,Ubuntu,PHP">
@@ -1339,9 +1341,9 @@
 <meta property="og:title" content="Linux 下PHP的编译安装与升级到PHP7.4">
 <meta property="og:url" content="https://week8.fun/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="">
+<meta property="og:description" content="Linux 下PHP的编译安装与升级到PHP7.4">
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.101.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1359,8 +1361,7 @@
   <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
   
 
-
-    <script type="application/ld+json">
+ <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -1368,7 +1369,7 @@
     "datePublished": "2019-12-06T00:00:00Z",
     "dateModified": "2019-12-06T00:00:00Z",
     "url" : "https://week8.fun/linux/linux-%E4%B8%8Bphp%E7%9A%84%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/",
-    "description": "PHP的编译安装 官网下载 https://www.php.net/downloads.php 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf …",
+    "description": "Linux 下PHP的编译安装与升级到PHP7.4",
     "keywords": ["linux","Ubuntu","PHP"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1381,8 +1382,7 @@
     }
   }
 </script>
-
-    
+ 
   
   
 
@@ -1391,8 +1391,7 @@
 
 
 
-
-    
+ 
 </head>
 
 <body id="root" class="theme__dark">
@@ -1707,9 +1706,7 @@
   
   
 </div>
-</nav>
-            
-            
+</nav>  
 
 <main class="single__main main">
   
@@ -1788,16 +1785,16 @@
 <p>以<a href="https://www.php.net/distributions/php-7.3.12.tar.bz2">php-7.3.12.tar.bz2 (sig)</a> 为例</p>
 </blockquote>
 <h3 id="下载">下载</h3>
-<pre><code>cd /usr/local/src
+<pre tabindex="0"><code>cd /usr/local/src
 
 wget https://www.php.net/distributions/php-7.3.12.tar.bz2
 </code></pre><h3 id="解压">解压</h3>
-<pre><code>
+<pre tabindex="0"><code>
 tar -xjvf php-7.4.0.tar.bz2
 cd php-7.4.0
 </code></pre><h3 id="安装依赖">安装依赖</h3>
 <p>安装一些编译PHP所需要的依赖</p>
-<pre><code>
+<pre tabindex="0"><code>
 sudo apt update
 sudo apt install gcc
 sudo apt install make
@@ -1814,30 +1811,30 @@ sudo apt install libzip-dev
 <blockquote>
 <p>php -i | grep configure</p>
 </blockquote>
-<pre><code>./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm
+<pre tabindex="0"><code>./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm
 </code></pre><p>&ndash;prefix 安装路径
 &ndash;with-config-file-path 配置文件路径</p>
 <h3 id="编译并安装">编译并安装</h3>
 <p>编译</p>
-<pre><code>make 
+<pre tabindex="0"><code>make 
 </code></pre><p>安装</p>
-<pre><code>sudo make install
+<pre tabindex="0"><code>sudo make install
 </code></pre><h3 id="复制phpini配置文件">复制php.ini配置文件</h3>
 <p>php.ini放在<code>--with-config-file-path</code>地址</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp php.ini-development /usr/local/php/etc/php.ini <span class="c1">#生成环境复制php.ini-production或者都复制php.ini-production</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo cp php.ini-development /usr/local/php/etc/php.ini <span class="c1">#生成环境复制php.ini-production或者都复制php.ini-production</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="将-usrlocalphpbin-添加到系统环境变量中方便使用php和phpize等命令">将 /usr/local/php/bin 添加到系统环境变量中，方便使用php和phpize等命令</h3>
-<pre><code>vim /etc/profile  #注：该配置对所有用户生效
+<pre tabindex="0"><code>vim /etc/profile  #注：该配置对所有用户生效
 </code></pre><p>在最后一行添加</p>
-<pre><code>export PATH=$PATH:/usr/local/php/bin
+<pre tabindex="0"><code>export PATH=$PATH:/usr/local/php/bin
 </code></pre><p>保存退出</p>
-<pre><code>
+<pre tabindex="0"><code>
 source /etc/profile
 
 php -v
@@ -1845,20 +1842,20 @@ php -v
 <h4 id="创建并设置php-fpm运行账号">创建并设置php-fpm运行账号</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">
-groupadd www-data
-
-useradd -M -g www-data -s /sbin/nologin www-data
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">groupadd www-data
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">useradd -M -g www-data -s /sbin/nologin www-data
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="设置php-fpm-配置">设置php-fpm 配置</h4>
-<pre><code>
+<pre tabindex="0"><code>
 cd /usr/local/php/etc
 
 sudo cp php-fpm.conf.default php-fpm.conf
@@ -1869,53 +1866,52 @@ sudo cp www.conf.default www.conf
 
 vim www.conf
 </code></pre><p>搜索<code>user</code>设置运行账号：</p>
-<pre><code>
+<pre tabindex="0"><code>
 user = www-data
 group = www-data
 </code></pre><p>去掉<code>;pid = run/php-fpm.pid</code>前的分号</p>
-<pre><code>pid = run/php-fpm.pid
+<pre tabindex="0"><code>pid = run/php-fpm.pid
 </code></pre><p>保存退出</p>
 <h4 id="php-fpm启动脚本设置">PHP-FPM启动脚本设置</h4>
 <p><a href="/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/">Linux下设置php-fpm开机自动启动</a></p>
 <h4 id="启动php-fpm">启动PHP-FPM</h4>
-<pre><code>sudo service php-fpm start
+<pre tabindex="0"><code>sudo service php-fpm start
 </code></pre><h2 id="升级安装-php-至-740">升级安装 PHP 至 7.4.0</h2>
 <h3 id="备份配置文件">备份配置文件</h3>
 <p><strong>注意</strong>:
 一定要备份好配置文件</p>
-<pre><code>sudo mv /usr/local/php /usr/local/php-7.3.12
+<pre tabindex="0"><code>sudo mv /usr/local/php /usr/local/php-7.3.12
 </code></pre><h3 id="下载-1">下载</h3>
-<pre><code>
+<pre tabindex="0"><code>
 cd /usr/local/src
 
 wget https://www.php.net/distributions/php-7.4.0.tar.bz2
 </code></pre><h3 id="解压-1">解压</h3>
-<pre><code>
+<pre tabindex="0"><code>
 tar -xjvf php-7.4.0.tar.bz2
 cd php-7.4.0
 </code></pre><h3 id="停止php-fpm">停止php-fpm</h3>
-<pre><code>sudo service php-fpm stop 
+<pre tabindex="0"><code>sudo service php-fpm stop 
 </code></pre><h3 id="配置php-1">配置PHP</h3>
 <p>查看以前编译php所使用的编译参数</p>
 <blockquote>
 <p>php -i | grep configure</p>
 </blockquote>
-<pre><code>./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm
+<pre tabindex="0"><code>./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm
 </code></pre><h3 id="编译并安装-1">编译并安装</h3>
 <p>编译</p>
-<pre><code>sudo make 
+<pre tabindex="0"><code>sudo make 
 </code></pre><p>安装</p>
-<pre><code>sudo make install
+<pre tabindex="0"><code>sudo make install
 </code></pre><h3 id="复制默认配置文件从-usrlocalphp-7312-目录拷贝就行">复制默认配置文件（从 /usr/local/php-7.3.12 目录拷贝就行）</h3>
-<pre><code>
+<pre tabindex="0"><code>
 cp /usr/local/php-7.3.12/etc/php.ini  /usr/local/php/etc/php.ini
 
 cp /usr/local/php-7.3.12/etc/php-fpm.conf  /usr/local/php/etc/php-fpm.conf
 
 cp /usr/local/php-7.3.12/etc/php-fpm.d/www.conf  /usr/local/php/etc/php-fpm.d/www.conf
-
 </code></pre><h3 id="启动php-fpm-1">启动php-fpm</h3>
-<pre><code>sudo service php-fpm start
+<pre tabindex="0"><code>sudo service php-fpm start
 </code></pre><p>完成。</p>
 
     </article>
@@ -2350,7 +2346,7 @@ cp /usr/local/php-7.3.12/etc/php-fpm.d/www.conf  /usr/local/php/etc/php-fpm.d/ww
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3215,9 +3211,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 </script>
 
-
-            
-            <footer class="footer">
+  <footer class="footer">
     
 <div class="dropdown">
   <button class="dropdown-trigger" aria-label="Select Language Button">
@@ -3296,7 +3290,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

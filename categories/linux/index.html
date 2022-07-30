@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr ">
 
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="" name="keywords">
+    <meta content="蜗牛,php,go,golang,linux,mysql,redis - " property="og:description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Linux – 蜗牛</title>
     
@@ -18,9 +20,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1315,17 +1317,15 @@
     }
   
   });
-</script>    
-    
+</script> 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
 
-
-    
+ 
 <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://week8.fun/categories/linux/index.xml">
 
-<meta name="description" content="蜗牛,php,go,golang,linux,mysql" />
+<meta name="description" content="蜗牛,php,go,golang,linux,mysql,redis" />
 
 
 <meta name="created" content="2019-12-18T00:00:00&#43;0000">
@@ -1339,9 +1339,9 @@
 <meta property="og:title" content="Linux">
 <meta property="og:url" content="https://week8.fun/categories/linux/">
 <meta property="og:type" content="website">
-<meta property="og:description" content="蜗牛,php,go,golang,linux,mysql">
+<meta property="og:description" content="蜗牛,php,go,golang,linux,mysql,redis">
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.101.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1359,14 +1359,13 @@
   <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
   
 
-
-    <script type="application/ld+json">
+ <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "url" : "https://week8.fun/categories/linux/",
     "name": "Linux",
-    "description": "蜗牛,php,go,golang,linux,mysql",
+    "description": "蜗牛,php,go,golang,linux,mysql,redis",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://week8.fun/"
@@ -1378,8 +1377,7 @@
     }
   }
 </script>
-
-    
+ 
   
   
 
@@ -1388,8 +1386,7 @@
 
 
 
-
-    
+ 
 </head>
 
 <body id="root" class="theme__dark">
@@ -1704,9 +1701,7 @@
   
   
 </div>
-</nav>
-            
-            
+</nav>  
 
 <main class="main inner" data-sidebar-position="">
   <div class="list__main lm">
@@ -1771,7 +1766,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            安装依赖插件 为了使vim支持ruby、lua、perl、python2、python3编写的插件，在正式编译安装vim之前需要在系统中安装好
+            Centos7下编译安装Vim8
           
         </div>
       </div>
@@ -1837,7 +1832,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            1、创建php-fpm文件 vim /etc/init.d/php-fpm 然后加入下面的脚本： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45
+            Linux下设置php-fpm开机自动启动
           
         </div>
       </div>
@@ -1870,7 +1865,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            安装 sysv-rc-conf suod apt install sysv-rc-conf 执行 sysv-rc-conf命令 sysv-rc-conf 按空格选择 service 这一行表示运行级别 Linux运行级别 在任何时候，Linux系统都跑在一个指定的运
+            Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig
           
         </div>
       </div>
@@ -1903,7 +1898,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的。以后只需要进入源码的ext目录，例如忘了zip
+            编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的
           
         </div>
       </div>
@@ -1936,7 +1931,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            在运行ubuntu的apt-get install命令时，经常遇到如下错误： 这个表示当前apt-get命令被占用，我们需要做的是杀死这些进程 解
+            E: Could not get lock /var/lib/dpkg/lock-frontend - open
           
         </div>
       </div>
@@ -1969,7 +1964,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            PHP的编译安装 官网下载 https://www.php.net/downloads.php 以php-7.3.12.tar.bz2 (sig) 为例 下载 cd /usr/local/src wget https://www.php.net/distributions/php-7.3.12.tar.bz2 解压 tar -xjvf php-7.4.0.tar.bz2 cd php-7.4.0 安装依赖 安装一些编译PHP所需要的依赖 sudo apt update
+            Linux 下PHP的编译安装与升级到PHP7.4
           
         </div>
       </div>
@@ -2002,7 +1997,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            1、进入 /etc/apt 2、 使用vim sources.list命令 在里面sources.list 添加镜像源 deb http://archive.ubuntu.com/ubuntu/ trusty main universe restricted multiverse 3、然后 sudo apt-get update 4、 sudo apt install sysv-rc-conf 接着安装
+            ubuntu当使用命令sudo apt install sysv-rc-conf安装不上时，提示“ E: 无法定位软件包问题
           
         </div>
       </div>
@@ -2035,7 +2030,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            1、连接拒绝 $ ssh jade@172.16.50.129 结果 ssh: connect to host 172.16.50.129 port 22: Connection refused 2、检查虚拟机的SSH服务是否开启 $ ps -e | grep ssh 结果 1419 ? 00:00:00 ssh-agent 只出现ssh-agent则没有开启ssh 3
+            Mac下SSH连接本地虚拟机
           
         </div>
       </div>
@@ -2068,7 +2063,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            使用Vmware虚拟机中，发现宿主机与虚拟机里面的内容无法互相复制粘贴。造成交互内容麻烦，尝试需要使用管理员权限打开虚拟机，这样就可以正常复
+            使用Vmware虚拟机中，发现宿主机与虚拟机里面的内容无法互相复制粘贴。造成交互内容麻烦，尝试需要使用管理员权限打开虚拟机，这样就可以正常复制粘贴宿主机中的内容到虚拟机中了。
           
         </div>
       </div>
@@ -2101,7 +2096,7 @@
       <div>
         <div class="summary-classic__text p2">
           
-            tar -c: 建立压缩档案 -x：解压 -t：查看内容 -r：向压缩归档文件末尾追加文件 -u：更新原压缩包中的文件 这五个是独立的命令，压缩解压都要用到其中一
+            Linux下的tar压缩解压缩命令详解
           
         </div>
       </div>
@@ -2532,9 +2527,7 @@
 </script>
 
 
-
-            
-            <footer class="footer">
+  <footer class="footer">
     
 <div class="dropdown">
   <button class="dropdown-trigger" aria-label="Select Language Button">
@@ -2613,7 +2606,7 @@
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

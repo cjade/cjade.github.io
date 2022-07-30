@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr ">
 
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="linux , php , php-fpm" name="keywords">
+    <meta content="蜗牛,php,go,golang,linux,mysql,redis - Linux下设置php-fpm开机自动启动" property="og:description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Linux下设置php-fpm开机自动启动 – 蜗牛</title>
     
@@ -18,9 +20,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1315,15 +1317,15 @@
     }
   
   });
-</script>    
-    
+</script> 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
 
+ 
+<meta name="description" content="Linux下设置php-fpm开机自动启动" />
 
-    
-<meta name="description" content="" />
+<meta name="keywords" content="linux,php,php-fpm">
 
 
 <meta name="keywords" content="linux,php-fpm">
@@ -1339,9 +1341,9 @@
 <meta property="og:title" content="Linux下设置php-fpm开机自动启动">
 <meta property="og:url" content="https://week8.fun/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="">
+<meta property="og:description" content="Linux下设置php-fpm开机自动启动">
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.101.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1359,8 +1361,7 @@
   <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
   
 
-
-    <script type="application/ld+json">
+ <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -1368,7 +1369,7 @@
     "datePublished": "2019-12-07T00:00:00Z",
     "dateModified": "2019-12-07T00:00:00Z",
     "url" : "https://week8.fun/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/",
-    "description": "1、创建php-fpm文件 vim /etc/init.d/php-fpm 然后加入下面的脚本： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 …",
+    "description": "Linux下设置php-fpm开机自动启动",
     "keywords": ["linux","php-fpm"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1381,8 +1382,7 @@
     }
   }
 </script>
-
-    
+ 
   
   
 
@@ -1391,8 +1391,7 @@
 
 
 
-
-    
+ 
 </head>
 
 <body id="root" class="theme__dark">
@@ -1707,9 +1706,7 @@
   
   
 </div>
-</nav>
-            
-            
+</nav>  
 
 <main class="single__main main">
   
@@ -1780,11 +1777,11 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p>1、创建php-fpm文件</p>
-<pre><code>vim /etc/init.d/php-fpm
+<pre tabindex="0"><code>vim /etc/init.d/php-fpm
 </code></pre><p>然后加入下面的脚本：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1853,80 +1850,80 @@
 </span><span class="lnt">67
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
-</span><span class="cp"></span><span class="c1">#</span>
-<span class="c1"># Startup script for the PHP-FPM server.</span>
-<span class="c1">#</span>
-<span class="c1"># chkconfig: 345 85 15</span>
-<span class="c1"># description: PHP is an HTML-embedded scripting language</span>
-<span class="c1"># processname: php-fpm</span>
-<span class="c1"># config: /usr/local/php/etc/php.ini</span>
- 
-<span class="c1"># Source function library.</span>
-<span class="c1">#用which php-fpm找到你文件的位置</span>
-
-<span class="nv">PHP_PATH</span><span class="o">=</span>/usr/local   
-<span class="nv">DESC</span><span class="o">=</span><span class="s2">&#34;php-fpm daemon&#34;</span>
-<span class="nv">NAME</span><span class="o">=</span>php-fpm
-<span class="c1"># php-fpm路径</span>
-<span class="nv">DAEMON</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/sbin/<span class="nv">$NAME</span>
-<span class="c1"># 配置文件路径</span>
-<span class="nv">CONFIGFILE</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/etc/php-fpm.conf
-<span class="c1"># PID文件路径(在php-fpm.conf设置)</span>
-<span class="nv">PIDFILE</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/var/run/<span class="nv">$NAME</span>.pid
-<span class="nv">SCRIPTNAME</span><span class="o">=</span>/etc/init.d/<span class="nv">$NAME</span>
- 
-<span class="c1"># Gracefully exit if the package has been removed.</span>
-<span class="nb">test</span> -x <span class="nv">$DAEMON</span> <span class="o">||</span> <span class="nb">exit</span> <span class="m">0</span>
- 
-rh_start<span class="o">()</span> <span class="o">{</span>
-  <span class="nv">$DAEMON</span> -y <span class="nv">$CONFIGFILE</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; already running&#34;</span>
-<span class="o">}</span>
- 
-rh_stop<span class="o">()</span> <span class="o">{</span>
-  <span class="nb">kill</span> -QUIT <span class="sb">`</span>cat <span class="nv">$PIDFILE</span><span class="sb">`</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; not running&#34;</span>
-<span class="o">}</span>
- 
-rh_reload<span class="o">()</span> <span class="o">{</span>
-  <span class="nb">kill</span> -HUP <span class="sb">`</span>cat <span class="nv">$PIDFILE</span><span class="sb">`</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; can&#39;t reload&#34;</span>
-<span class="o">}</span>
- 
-<span class="k">case</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> in
-  start<span class="o">)</span>
-        <span class="nb">echo</span> -n <span class="s2">&#34;Starting </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
-        rh_start
-        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
-        <span class="p">;;</span>
-  stop<span class="o">)</span>
-        <span class="nb">echo</span> -n <span class="s2">&#34;Stopping </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
-        rh_stop
-        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
-        <span class="p">;;</span>
-  reload<span class="o">)</span>
-        <span class="nb">echo</span> -n <span class="s2">&#34;Reloading </span><span class="nv">$DESC</span><span class="s2"> configuration...&#34;</span>
-        rh_reload
-        <span class="nb">echo</span> <span class="s2">&#34;reloaded.&#34;</span>
-  <span class="p">;;</span>
-  restart<span class="o">)</span>
-        <span class="nb">echo</span> -n <span class="s2">&#34;Restarting </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
-        rh_stop
-        sleep <span class="m">1</span>
-        rh_start
-        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
-        <span class="p">;;</span>
-  *<span class="o">)</span>
-         <span class="nb">echo</span> <span class="s2">&#34;Usage: </span><span class="nv">$SCRIPTNAME</span><span class="s2"> {start|stop|restart|reload}&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
-         <span class="nb">exit</span> <span class="m">3</span>
-        <span class="p">;;</span>
-<span class="k">esac</span>
-<span class="nb">exit</span> <span class="m">0</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Startup script for the PHP-FPM server.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># chkconfig: 345 85 15</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># description: PHP is an HTML-embedded scripting language</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># processname: php-fpm</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># config: /usr/local/php/etc/php.ini</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># Source function library.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#用which php-fpm找到你文件的位置</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">PHP_PATH</span><span class="o">=</span>/usr/local   
+</span></span><span class="line"><span class="cl"><span class="nv">DESC</span><span class="o">=</span><span class="s2">&#34;php-fpm daemon&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NAME</span><span class="o">=</span>php-fpm
+</span></span><span class="line"><span class="cl"><span class="c1"># php-fpm路径</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DAEMON</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/sbin/<span class="nv">$NAME</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 配置文件路径</span>
+</span></span><span class="line"><span class="cl"><span class="nv">CONFIGFILE</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/etc/php-fpm.conf
+</span></span><span class="line"><span class="cl"><span class="c1"># PID文件路径(在php-fpm.conf设置)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PIDFILE</span><span class="o">=</span><span class="nv">$PHP_PATH</span>/php/var/run/<span class="nv">$NAME</span>.pid
+</span></span><span class="line"><span class="cl"><span class="nv">SCRIPTNAME</span><span class="o">=</span>/etc/init.d/<span class="nv">$NAME</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># Gracefully exit if the package has been removed.</span>
+</span></span><span class="line"><span class="cl"><span class="nb">test</span> -x <span class="nv">$DAEMON</span> <span class="o">||</span> <span class="nb">exit</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">rh_start<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">$DAEMON</span> -y <span class="nv">$CONFIGFILE</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; already running&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">rh_stop<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">kill</span> -QUIT <span class="sb">`</span>cat <span class="nv">$PIDFILE</span><span class="sb">`</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; not running&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">rh_reload<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">kill</span> -HUP <span class="sb">`</span>cat <span class="nv">$PIDFILE</span><span class="sb">`</span> <span class="o">||</span> <span class="nb">echo</span> -n <span class="s2">&#34; can&#39;t reload&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">case</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> in
+</span></span><span class="line"><span class="cl">  start<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> -n <span class="s2">&#34;Starting </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        rh_start
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl">  stop<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> -n <span class="s2">&#34;Stopping </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        rh_stop
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl">  reload<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> -n <span class="s2">&#34;Reloading </span><span class="nv">$DESC</span><span class="s2"> configuration...&#34;</span>
+</span></span><span class="line"><span class="cl">        rh_reload
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;reloaded.&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">;;</span>
+</span></span><span class="line"><span class="cl">  restart<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> -n <span class="s2">&#34;Restarting </span><span class="nv">$DESC</span><span class="s2">: </span><span class="nv">$NAME</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        rh_stop
+</span></span><span class="line"><span class="cl">        sleep <span class="m">1</span>
+</span></span><span class="line"><span class="cl">        rh_start
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl">  *<span class="o">)</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">echo</span> <span class="s2">&#34;Usage: </span><span class="nv">$SCRIPTNAME</span><span class="s2"> {start|stop|restart|reload}&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">exit</span> <span class="m">3</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl"><span class="k">esac</span>
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span> <span class="m">0</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>保存并退出</p>
 <p>3、更改权限</p>
-<pre><code>sudo chmod +x /etc/init.d/php-fpm
+<pre tabindex="0"><code>sudo chmod +x /etc/init.d/php-fpm
 </code></pre><p>4、加入服务</p>
-<pre><code>
+<pre tabindex="0"><code>
 update-rc.d php-fpm defaults
  
 // 添加
@@ -1937,7 +1934,7 @@ update-rc.d ServiceName defaults
 update-rc.d ServiceName remove
 </code></pre><p>5、加入到开机启动项</p>
 <p>使用chkconfig 命令添加、删除和查看系统开机自启动服务</p>
-<pre><code>chkconfig --list 显示开机可以自动启动的服务 
+<pre tabindex="0"><code>chkconfig --list 显示开机可以自动启动的服务 
 
 chkconfig --add php-fpm 添加开机自动启动php-fpm服务 
 
@@ -1946,7 +1943,7 @@ chkconfig php-fpm on 来设置开机启动
 chkconfig --del php-fpm 删除开机自动启动php-fpm服务
 </code></pre><p><a href="/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/">Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig</a></p>
 <p>6、php-fpm命令</p>
-<pre><code>
+<pre tabindex="0"><code>
 service php-fpm start
 service php-fpm stop
 service php-fpm restart
@@ -2256,11 +2253,11 @@ service php-fpm start
     <ul class="related-ul">
         
         <li>
-          <a href="/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/" class="related__link">Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig</a>
+          <a href="/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/" class="related__link">无需重新编译安装PHP扩展的方法</a>
         </li>
         
         <li>
-          <a href="/linux/%E6%97%A0%E9%9C%80%E9%87%8D%E6%96%B0%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85php%E6%89%A9%E5%B1%95%E7%9A%84%E6%96%B9%E6%B3%95/" class="related__link">无需重新编译安装PHP扩展的方法</a>
+          <a href="/linux/ubuntu%E4%B8%8B%E7%9A%84sysv-rc-conf%E5%AE%8C%E7%BE%8E%E6%9B%BF%E4%BB%A3centos%E4%B8%8B%E7%9A%84chkconfig/" class="related__link">Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig</a>
         </li>
         
         <li>
@@ -2391,7 +2388,7 @@ service php-fpm start
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3256,9 +3253,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 </script>
 
-
-            
-            <footer class="footer">
+  <footer class="footer">
     
 <div class="dropdown">
   <button class="dropdown-trigger" aria-label="Select Language Button">
@@ -3337,7 +3332,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

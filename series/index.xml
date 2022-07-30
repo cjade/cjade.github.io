@@ -14,7 +14,7 @@
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://week8.fun/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
       <item>
         <title>Go Web Dev</title>
         <link>https://week8.fun/series/go-web-dev/</link>
-        <pubDate>Fri, 29 Nov 2019 00:00:00 +0800</pubDate>
+        <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
         <author>jadegg@foxmail.com (Jade)</author>
         
         <guid>https://week8.fun/series/go-web-dev/</guid>

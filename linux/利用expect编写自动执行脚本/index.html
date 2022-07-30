@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr ">
 
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="expect" name="keywords">
+    <meta content="蜗牛,php,go,golang,linux,mysql,redis - 使用SSH登录远程服务器机需要手动输入用户名、IP、密码非常麻烦，因此可以用expect编写脚本利用脚本自动登入。" property="og:description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>利用expect编写自动执行脚本 – 蜗牛</title>
     
@@ -18,9 +20,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1315,15 +1317,15 @@
     }
   
   });
-</script>    
-    
+</script> 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
 
-
-    
+ 
 <meta name="description" content="使用SSH登录远程服务器机需要手动输入用户名、IP、密码非常麻烦，因此可以用expect编写脚本利用脚本自动登入。" />
+
+<meta name="keywords" content="expect">
 
 
 <meta name="keywords" content="linux,ssh">
@@ -1341,7 +1343,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="使用SSH登录远程服务器机需要手动输入用户名、IP、密码非常麻烦，因此可以用expect编写脚本利用脚本自动登入。">
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.101.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1359,8 +1361,7 @@
   <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
   
 
-
-    <script type="application/ld+json">
+ <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -1381,8 +1382,7 @@
     }
   }
 </script>
-
-    
+ 
   
   
 
@@ -1391,8 +1391,7 @@
 
 
 
-
-    
+ 
 </head>
 
 <body id="root" class="theme__dark">
@@ -1707,9 +1706,7 @@
   
   
 </div>
-</nav>
-            
-            
+</nav>  
 
 <main class="single__main main">
   
@@ -1782,9 +1779,9 @@
       <p>使用SSH登录远程服务器机需要手动输入用户名、IP、密码非常麻烦，因此可以用expect编写脚本利用脚本自动登入。</p>
 <h2 id="安装expect">安装expect</h2>
 <h3 id="mac下安装">Mac下安装</h3>
-<pre><code>brew install expect
+<pre tabindex="0"><code>brew install expect
 </code></pre><h3 id="ubuntu下安装">Ubuntu下安装</h3>
-<pre><code>apt install expect
+<pre tabindex="0"><code>apt install expect
 </code></pre><h2 id="expect命令">expect命令</h2>
 <h3 id="send-用于向进程发送字符串">send 用于向进程发送字符串</h3>
 <p><code>send</code>命令接收一个字符串参数，并将该参数发送到进程。</p>
@@ -1795,9 +1792,9 @@
 <h3 id="interact-允许用户交互">interact 允许用户交互</h3>
 <p><code>interact</code>命令用的其实不是很多，一般情况下使用<code>spawn</code>、<code>send</code>和<code>expect</code>命令就可以很好的完成我们的任务；但在一些特殊场合下还是需要使用<code>interact</code>命令的，<code>interact</code>命令主要用于退出自动化，进入人工交互。比如我们使用s<code>pawn</code>、<code>send</code>和<code>expect</code>命令完成了<code>ftp</code>登陆主机，执行下载文件任务，但是我们希望在文件下载结束以后，仍然可以停留在<code>ftp</code>命令行状态，以便手动的执行后续命令，此时使用<code>interact</code>命令就可以很好的完成这个任务。</p>
 <h2 id="编写脚本">编写脚本</h2>
-<pre><code>vim autologin.sh
+<pre tabindex="0"><code>vim autologin.sh
 </code></pre><p>添加</p>
-<pre><code>
+<pre tabindex="0"><code>
 #expect的安装路径
 #!/usr/bin/expect -f
 #设置超时时间 
@@ -1808,8 +1805,8 @@ set password yourpassword
 spawn ssh root@ip
 #根据输出传递数据
 expect {
-    -re &quot;password&quot; {send &quot;$password\r&quot;}
-    -re &quot;yes/no&quot; {send &quot;yes\n&quot;;exp_continue} # 有的时候输入几次密码来确认,exp_continue
+    -re &#34;password&#34; {send &#34;$password\r&#34;}
+    -re &#34;yes/no&#34; {send &#34;yes\n&#34;;exp_continue} # 有的时候输入几次密码来确认,exp_continue
 }
 #保持在远端  
 interact
@@ -2250,7 +2247,7 @@ interact
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3115,9 +3112,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 </script>
 
-
-            
-            <footer class="footer">
+  <footer class="footer">
     
 <div class="dropdown">
   <button class="dropdown-trigger" aria-label="Select Language Button">
@@ -3196,7 +3191,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

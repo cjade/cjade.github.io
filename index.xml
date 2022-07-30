@@ -423,9 +423,9 @@
       <item>
         <title>我来也</title>
         <link>https://week8.fun/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</link>
-        <pubDate>Fri, 29 Nov 2019 00:00:00 +0800</pubDate>
+        <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
         <author>jadegg@foxmail.com (Jade)</author>
-        <atom:modified>Fri, 29 Nov 2019 00:00:00 +0800</atom:modified>
+        <atom:modified>Fri, 29 Nov 2019 00:00:00 +0000</atom:modified>
         <guid>https://week8.fun/post/%E6%88%91%E6%9D%A5%E4%B9%9F/</guid>
         <description>Hello Hugo aaa bbb ccc ds 我来也</description>
         
@@ -453,7 +453,7 @@
         <guid>https://week8.fun/about/</guid>
         <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
         
         <dc:creator>Jade</dc:creator>
         <media:content url="https://week8.fun/read.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -578,7 +578,7 @@ Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
         
         <dc:creator>Jade</dc:creator>
         <media:content url="https://week8.fun/stuck.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
