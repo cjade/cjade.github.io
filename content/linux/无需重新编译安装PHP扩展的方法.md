@@ -1,7 +1,12 @@
 +++
 title = "无需重新编译安装PHP扩展的方法"
 featured_image = "Linux/Linux.jpg"
-description = ""
+description = "编译安装php配置时，这里面开启了很多扩展。如果这时候忘了开启，以后还能加上吗？答案是可以的"
+keywords = [
+    "linux",
+    "PHP扩展",
+    "php"
+]
 tags = [
     "linux",
     "php"

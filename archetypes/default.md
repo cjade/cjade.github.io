@@ -8,6 +8,9 @@ draft: true
 title = "{{ replace .Name "-" " " | title }}"
 featured_image = ""
 description = ""
+keywords = [
+    ""
+]
 tags = [
     ""
 ]

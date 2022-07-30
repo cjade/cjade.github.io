@@ -1,5 +1,8 @@
 +++
 title = "利用expect编写自动执行脚本"
+keywords = [
+    "expect"
+]
 featured_image = "Linux/Linux.jpg"
 description = "使用SSH登录远程服务器机需要手动输入用户名、IP、密码非常麻烦，因此可以用expect编写脚本利用脚本自动登入。"
 tags = [

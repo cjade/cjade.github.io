@@ -1,7 +1,11 @@
 +++
 title = "Linux下的tar压缩解压缩命令详解"
 featured_image = "Linux/Linux.jpg"
-description = ""
+description = "Linux下的tar压缩解压缩命令详解"
+keywords = [
+    "linux",
+    "tar",
+]
 tags = [
     "linux",
 ]

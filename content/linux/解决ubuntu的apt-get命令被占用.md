@@ -1,7 +1,11 @@
 +++
 title = "E: Could not get lock /var/lib/dpkg/lock-frontend - open"
+keywords = [
+     "linux",
+    "Ubuntu",
+]
 featured_image = "Linux/Linux.jpg"
-description = ""
+description = "E: Could not get lock /var/lib/dpkg/lock-frontend - open"
 tags = [
     "linux",
     "Ubuntu",

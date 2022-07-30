@@ -1,7 +1,13 @@
 +++
 title = "Linux 下PHP的编译安装与升级到PHP7.4"
 featured_image = "Linux/Linux.jpg"
-description = ""
+description = "Linux 下PHP的编译安装与升级到PHP7.4"
+keywords = [
+    "linux",
+    "Ubuntu",
+    "PHP7.4",
+    "PHP"
+]
 tags = [
     "linux",
     "Ubuntu",

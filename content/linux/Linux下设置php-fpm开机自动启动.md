@@ -1,7 +1,12 @@
 +++
 title = "Linux下设置php-fpm开机自动启动"
 featured_image = "Linux/Linux.jpg"
-description = ""
+description = "Linux下设置php-fpm开机自动启动"
+keywords = [
+    "linux",
+    "php",
+    "php-fpm"
+]
 tags = [
     "linux",
     "php-fpm"

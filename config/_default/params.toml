@@ -1,5 +1,5 @@
 logoText = "蜗牛" # site navigation bar logo text.
-description = "蜗牛,php,go,golang,linux,mysql" # for SEO
+description = "蜗牛,php,go,golang,linux,mysql,redis" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 
