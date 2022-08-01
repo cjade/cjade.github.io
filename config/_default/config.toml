@@ -17,7 +17,7 @@ enableEmoji = true
 paginate = 13 # Number of items per page in paginated lists.
 rssLimit = 100
 
-enableGitInfo = true
+enableGitInfo = false
 
 pygmentsOptions = "linenos=table"
 pygmentsUseClasses = true
@@ -28,7 +28,17 @@ pygmentsUseClasses = true
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+  home = ["HTML", "RSS", "JSON", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
 
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]

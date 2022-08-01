@@ -2,6 +2,8 @@ logoText = "蜗牛" # site navigation bar logo text.
 description = "蜗牛,php,go,golang,linux,mysql,redis" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
+meta_image = "images/whoami/avatar.jpg"
+enableBioImage = true
 
 # header
 homeHeaderType = "slide" # text, img, slide
@@ -9,14 +11,19 @@ homeHeaderType = "slide" # text, img, slide
 # navbar
 enableThemeChange = true # site color theme
 
-# service
-# baiduAnalytics = "https://hm.baidu.com/hm.js?18cb1fb32dfbb928cbdf7a0d33c5ad60"
+
+themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+notAllowedTypesInHome = ["about", "gallery", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
+notAllowedTypesInHomeSidebar = ["about", "archive", "gallery"] # not allowed page types in home page sidebar(recent post titles).
+notAllowedTypesInArchive = ["about", "gallery"] # not allowed page types in archive page
+notAllowedTypesInHomeFeed = ["about", "archive", "gallery"]
+enablePinnedPosts = true # show pinned posts first in the main view  // pinned = true
 
 
 enableUiAnimation = true
 enableAppbarSearchIcon = true
 enableSearchHighlight = true
-searchResultPosition = "side"
+searchResultPosition = "main" # side, main
 tocPosition = "outer"
 
 # body
@@ -26,9 +33,10 @@ enableSearch = true # site search with lunr
 enableGoToTop = true # scroll to top
 enableWhoami = true # at the end of single page
 summaryShape = "classic" # card, classic, compact
-archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13 # items per page
+archiveGroupByDate = "2006-01" # "2006-01": group by month, "2006": group by year
+archivePaginate = 20 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
+
 
 # menu
 # showMobileMenuTerms = ["tags", "categories"] # tags, categories, series
@@ -51,15 +59,18 @@ enableSidebarSeries = true
 enableSidebarCategories = true
 enableToc = true # single page table of contents
 enableTocSwitch = true # single page table of contents visibility switch
+tocFolding = true # 当为 true 时，TOC 将动态折叠。
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 searchLanguages = ['en','zh-cn'] # lunr multilanguage search. https://github.com/MihaiValentin/lunr-languages
+
+
 
 # footer
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
 showFeedLinks = true # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = true # show button at bottom left of footer.
-themeOptions = ["dark", "light", "hacker", "solarized", "custom"] # select options for site color theme
+
 
 # comment
 enableComment = true

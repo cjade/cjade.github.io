@@ -13,20 +13,8 @@
 [[main]]
   identifier = "gallery"
   name = "画廊"
-  url = "gallery/cartoon"
+  url = "gallery/"
   weight = 3
-    
-# [[main]]
-#   parent = "gallery"
-#   name = "cartoon"
-#   url = "gallery/cartoon"
-
-# [[main]]
-#   parent = "gallery"
-#   name = "photo"
-#   url = "gallery/photo"
-
-
 
   [[main]]
   identifier = "about"

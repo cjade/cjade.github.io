@@ -1,6 +1,5 @@
 +++
 title = "Linux 下PHP的编译安装与升级到PHP7.4"
-featured_image = "Linux/Linux.jpg"
 description = "Linux 下PHP的编译安装与升级到PHP7.4"
 keywords = [
     "linux",
@@ -19,7 +18,6 @@ categories = [
     "PHP"
 ]
 +++
-
 
 
 
