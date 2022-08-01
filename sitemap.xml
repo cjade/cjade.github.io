@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://week8.fun/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/categories/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/docker/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/posts/redis/docker%E6%90%AD%E5%BB%BAredis%E9%9B%86%E7%BE%A4/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/posts/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/redis/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/categories/redis/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/</loc>
+    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/tags/centos/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
@@ -18,12 +36,6 @@
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://week8.fun/categories/linux/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/posts/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/tags/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://week8.fun/tags/vim/</loc>

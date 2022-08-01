@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Redis on 蜗牛 Blog</title>
+    <link>https://week8.fun/categories/redis/</link>
+    <description>Recent content in Redis on 蜗牛 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
+    <webMaster>jadegg@foxmail.com (Jade)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 22 Mar 2021 20:25:20 +0800</lastBuildDate>
+    
+        <atom:link href="https://week8.fun/categories/redis/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Docker搭建Redis集群</title>
+        <link>https://week8.fun/posts/redis/docker%E6%90%AD%E5%BB%BAredis%E9%9B%86%E7%BE%A4/</link>
+        <pubDate>Mon, 22 Mar 2021 20:25:20 +0800</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        <atom:modified>Mon, 22 Mar 2021 20:25:20 +0800</atom:modified>
+        <guid>https://week8.fun/posts/redis/docker%E6%90%AD%E5%BB%BAredis%E9%9B%86%E7%BE%A4/</guid>
+        <description>官方文档 环境Mac + Docker + Redis6.0 redis集群至少需要6个节点（3个master,3个slave） redis主从节点是算法分配的，无需指定，所以我</description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        <media:content url="https://week8.fun/image//images/redis/redis.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Redis</category>
+            
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Redis</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
