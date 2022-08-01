@@ -1,12 +1,7 @@
-<!-- ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
---- -->
-
 +++
 title = "{{ replace .Name "-" " " | title }}"
-featured_image = ""
+date = {{ .Date }}
+image = ""
 description = ""
 draft = true
 keywords = [
@@ -15,9 +10,12 @@ keywords = [
 tags = [
     ""
 ]
-date = {{ .Date }}
+
 categories = [
     ""
 ]
 +++
+
+<!-- 图片显示 -->
+{{< featuredImage >}}
 

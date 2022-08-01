@@ -1,6 +1,6 @@
 +++
 title = "Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig"
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "Ubuntu下的sysv-rc-conf完美“替代”CentOS下的chkconfig"
 keywords = [
     "linux",

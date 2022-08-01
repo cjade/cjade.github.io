@@ -1,6 +1,6 @@
 +++
 title = "ubuntu当使用命令sudo apt install sysv-rc-conf安装不上时，提示“ E: 无法定位软件包问题"
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "ubuntu当使用命令sudo apt install sysv-rc-conf安装不上时，提示“ E: 无法定位软件包问题"
 keywords = [
     "linux",

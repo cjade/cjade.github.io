@@ -1,7 +1,7 @@
 +++
 title = "Docker搭建Redis集群"
 description = "Docker搭建Redis集群"
-featured_image = "/images/redis/redis.jpeg"
+image = "/images/redis/redis.jpeg"
 date =  2021-03-22T20:25:20+08:00
 draft = false
 keywords =  [

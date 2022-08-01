@@ -8,7 +8,7 @@ git submodule update
 ```
 ## 测试
 ```
-hugo server --theme=zzo --buildDrafts
+hugo server --theme=zzo --buildDrafts -w
 ```
 ## 编译
 ```

@@ -1,6 +1,6 @@
 +++
 title = "Centos7下编译安装Vim8"
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "Centos7下编译安装Vim8"
 keywords = [
     "linux",

@@ -1,6 +1,6 @@
 +++
 title = "Mac下SSH连接本地虚拟机"
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "Mac下SSH连接本地虚拟机"
 keywords = [
     "linux",

@@ -4,7 +4,7 @@ keywords = [
      "linux",
     "Ubuntu",
 ]
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "E: Could not get lock /var/lib/dpkg/lock-frontend - open"
 tags = [
     "linux",

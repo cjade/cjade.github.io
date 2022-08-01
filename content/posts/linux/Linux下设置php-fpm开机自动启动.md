@@ -1,6 +1,6 @@
 +++
 title = "Linux下设置php-fpm开机自动启动"
-featured_image = "Linux/Linux.jpg"
+featured_image = ""
 description = "Linux下设置php-fpm开机自动启动"
 keywords = [
     "linux",
