@@ -13,7 +13,7 @@
     <language>zh-cn</language>
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 22 Mar 2021 20:25:20 +0800</lastBuildDate>
     
         <atom:link href="https://week8.fun/categories/redis/index.xml" rel="self" type="application/rss+xml" />
@@ -30,8 +30,8 @@
         <description>官方文档 环境Mac + Docker + Redis6.0 redis集群至少需要6个节点（3个master,3个slave） redis主从节点是算法分配的，无需指定，所以我</description>
         
         <dc:creator>Jade</dc:creator>
+        <media:content url="https://week8.fun//images/redis/redis.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
-        <media:content url="https://week8.fun/image//images/redis/redis.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
           

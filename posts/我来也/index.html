@@ -665,6 +665,12 @@
     
     var enableSearch = JSON.parse("true");
     
+    var searchDistance = JSON.parse("null");
+    
+    var searchThreshold = JSON.parse("null");
+    
+    var searchContent = JSON.parse("null");
+    
     var enableSearchHighlight = JSON.parse("true");
     
     var searchResultPosition = JSON.parse("\"main\"");
@@ -688,12 +694,13 @@
         xhr.onload = function () {
           if (xhr.status === 200) {
             fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
-              keys: sectionType.includes('publication') ? ['title', 'abstract'] : ['title', 'description', 'content'],
+              keys: sectionType.includes('publication') ? ['title', 'abstract'] : 
+                searchContent ? ['title', 'description', 'content'] : ['title', 'description'],
               includeMatches: enableSearchHighlight,
               shouldSort: true, 
-              threshold: 0.4, 
+              threshold: searchThreshold ? searchThreshold : 0.4, 
               location: 0, 
-              distance: 100, 
+              distance: searchDistance ? searchDistance : 100, 
               maxPatternLength: 32,
               minMatchCharLength: 1,
               isCaseSensitive: false, 
@@ -717,7 +724,7 @@
       var a = document.createElement('a');
       a.innerHTML = obj.item.title;
       a.setAttribute('class', 'search-result__item--title');
-      a.setAttribute('href', obj.item.permalink);
+      a.setAttribute('href', obj.item.uri);
 
       var descDiv = document.createElement('div');
       descDiv.setAttribute('class', 'search-result__item--desc');
@@ -1317,18 +1324,19 @@
     }
   
   });
-</script> 
+</script>
+ 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
 
  
-<meta name="description" content="" />
+<meta name="description" content="蜗牛,php,go,golang,linux,mysql,redis" />
 
 
-<meta name="created" content="2019-11-29T00:00:00&#43;0000">
-<meta name="modified" content="2019-11-29T00:00:00&#43;0000">
-<meta property="article:published_time" content="2019-11-29T00:00:00&#43;0000">
+<meta name="created" content="0001-01-01T00:00:00&#43;0000">
+<meta name="modified" content="0001-01-01T00:00:00&#43;0000">
+<meta property="article:published_time" content="0001-01-01T00:00:00&#43;0000">
 
 <meta name="author" content="Jade">
 
@@ -1337,15 +1345,15 @@
 <meta property="og:title" content="我来也">
 <meta property="og:url" content="https://week8.fun/posts/%E6%88%91%E6%9D%A5%E4%B9%9F/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="">
+<meta property="og:description" content="蜗牛,php,go,golang,linux,mysql,redis">
 
   
-    <meta property="og:image" content="https://week8.fun/images/Linux/Linux.jpg">
-    <meta property="og:image:url" content="https://week8.fun/images/Linux/Linux.jpg">
+    <meta property="og:image" content="https://week8.fun/images/whoami/avatar.jpg">
+    <meta property="og:image:url" content="https://week8.fun/images/whoami/avatar.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="蜗牛 Blog">
     <meta property="twitter:title" content="我来也">
-    <meta property="twitter:description" content="">
+    <meta property="twitter:description" content="蜗牛,php,go,golang,linux,mysql,redis">
   
 
 <meta name="generator" content="Hugo 0.101.0" />
@@ -1371,11 +1379,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "headline": "我来也",
-    "datePublished": "2019-11-29T00:00:00Z",
-    "dateModified": "2019-11-29T00:00:00Z",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
     "url" : "https://week8.fun/posts/%E6%88%91%E6%9D%A5%E4%B9%9F/",
     "description": "Hello Hugo aaa bbb ccc ds 我来也",
-    "image" : "https://week8.fun/images/Linux/Linux.jpg",
+    "image" : "https://week8.fun/images/whoami/avatar.jpg",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://week8.fun/"
@@ -1682,7 +1690,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="创建日期">📅&nbsp;2019年11月29日 </time>
+  <time class="single__info" title="创建日期">📅&nbsp;0001年01月01日 </time>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;1&nbsp;分钟 </span>
   
@@ -1709,7 +1717,7 @@
 
 
   <div class="featured-image__wrapper">
-    <img src="/images/Linux/Linux.jpg" alt="Featured Image" class="featured-image" style="width: ;height: ;">
+    <img src="/images/whoami/avatar.jpg" alt="Featured Image" class="featured-image" style="width: ;height: ;">
   </div>
 
 <h3 id="hello-hugo">Hello Hugo</h3>
@@ -2051,7 +2059,7 @@
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
 <script>
   var gitalk = new Gitalk({
-    id: '2019-11-29 00:00:00 \u002b0000 UTC',
+    id: '0001-01-01 00:00:00 \u002b0000 UTC',
     title: '我来也',
     clientID: 'c8b1a1e1c993339996ff',
     clientSecret: 'f4b769f023e2f9e232fd7466a402e55ce1aaf6c2',

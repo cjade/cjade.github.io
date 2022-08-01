@@ -89,15 +89,6 @@
     <loc>https://week8.fun/posts/linux/tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://week8.fun/series/go-web-dev/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/series/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/posts/%E6%88%91%E6%9D%A5%E4%B9%9F/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://week8.fun/gallery/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
@@ -106,5 +97,11 @@
   </url><url>
     <loc>https://week8.fun/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/series/go-web-dev/</loc>
+  </url><url>
+    <loc>https://week8.fun/series/</loc>
+  </url><url>
+    <loc>https://week8.fun/posts/%E6%88%91%E6%9D%A5%E4%B9%9F/</loc>
   </url>
 </urlset>
