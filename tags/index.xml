@@ -6,11 +6,11 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on 蜗牛</title>
+    <title>Tags on 蜗牛 Blog</title>
     <link>https://week8.fun/tags/</link>
-    <description>Recent content in Tags on 蜗牛</description>
+    <description>Recent content in Tags on 蜗牛 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
@@ -153,114 +153,6 @@
         <author>jadegg@foxmail.com (Jade)</author>
         
         <guid>https://week8.fun/tags/vmware/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>development</title>
-        <link>https://week8.fun/tags/development/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/development/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>go</title>
-        <link>https://week8.fun/tags/go/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/go/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>golang</title>
-        <link>https://week8.fun/tags/golang/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/golang/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hugo</title>
-        <link>https://week8.fun/tags/hugo/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/hugo/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>templates</title>
-        <link>https://week8.fun/tags/templates/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/templates/</guid>
-        <description></description>
-        
-        <dc:creator>Jade</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>themes</title>
-        <link>https://week8.fun/tags/themes/</link>
-        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-        <author>jadegg@foxmail.com (Jade)</author>
-        
-        <guid>https://week8.fun/tags/themes/</guid>
         <description></description>
         
         <dc:creator>Jade</dc:creator>
