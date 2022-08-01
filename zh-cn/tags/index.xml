@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tags on 蜗牛 Blog</title>
+    <link>https://week8.fun/zh-cn/tags/</link>
+    <description>Recent content in Tags on 蜗牛 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
+    <webMaster>jadegg@foxmail.com (Jade)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://week8.fun/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Centos</title>
+        <link>https://week8.fun/zh-cn/tags/centos/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/centos/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>linux</title>
+        <link>https://week8.fun/zh-cn/tags/linux/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>vim</title>
+        <link>https://week8.fun/zh-cn/tags/vim/</link>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/vim/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ssh</title>
+        <link>https://week8.fun/zh-cn/tags/ssh/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/ssh/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>PHP</title>
+        <link>https://week8.fun/zh-cn/tags/php/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/php/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>php-fpm</title>
+        <link>https://week8.fun/zh-cn/tags/php-fpm/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/php-fpm/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Ubuntu</title>
+        <link>https://week8.fun/zh-cn/tags/ubuntu/</link>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/ubuntu/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Vmware</title>
+        <link>https://week8.fun/zh-cn/tags/vmware/</link>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/vmware/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>development</title>
+        <link>https://week8.fun/zh-cn/tags/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/development/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>go</title>
+        <link>https://week8.fun/zh-cn/tags/go/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/go/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>golang</title>
+        <link>https://week8.fun/zh-cn/tags/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/golang/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>hugo</title>
+        <link>https://week8.fun/zh-cn/tags/hugo/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/hugo/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>templates</title>
+        <link>https://week8.fun/zh-cn/tags/templates/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/templates/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>themes</title>
+        <link>https://week8.fun/zh-cn/tags/themes/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/zh-cn/tags/themes/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
