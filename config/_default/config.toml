@@ -3,7 +3,7 @@ title = "蜗牛" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 subtitle = "我要一步一步往上爬."
 
-defaultContentLanguage = "zh-CN" # Default language to use (if you setup multilingual support)
+defaultContentLanguage = "zh-cn" # Default language to use (if you setup multilingual support)
 defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
 hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 
