@@ -9,6 +9,8 @@ homeHeaderType = "slide" # text, img, slide
 # navbar
 enableThemeChange = true # site color theme
 
+# service
+# baiduAnalytics = "https://hm.baidu.com/hm.js?18cb1fb32dfbb928cbdf7a0d33c5ad60"
 
 
 enableUiAnimation = true
@@ -27,6 +29,9 @@ summaryShape = "classic" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
+
+# menu
+# showMobileMenuTerms = ["tags", "categories"] # tags, categories, series
 
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
@@ -47,7 +52,7 @@ enableSidebarCategories = true
 enableToc = true # single page table of contents
 enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
-searchLanguages = ['en'] # lunr multilanguage search. https://github.com/MihaiValentin/lunr-languages
+searchLanguages = ['en','zh-CN'] # lunr multilanguage search. https://github.com/MihaiValentin/lunr-languages
 
 # footer
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
