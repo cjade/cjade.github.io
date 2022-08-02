@@ -74,6 +74,15 @@ showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = true # show button at bottom left of footer.
 
 
+# service
+googleTagManager = "" # GTM-XXXXXX
+baiduAnalytics = "" # alternative of google analytics
+enableBusuanzi = true # if set true, total page view, total unique visitors show up in the footer.
+busuanziSiteUV = true # unique visitors (total number of visitors)
+busuanziSitePV = true # site total page view count
+busuanziPagePV = true # post view count
+
+
 # comment
 enableComment = true
 disqus_shortname = "" 
@@ -95,13 +104,13 @@ commento = false
   clientId = "c8b1a1e1c993339996ff"           # Your client ID
   clientSecret = "f4b769f023e2f9e232fd7466a402e55ce1aaf6c2"       # Your client secret
   language = "zh-CN"
-  proxy = "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
+  proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
 
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [valine]
-  enable = true
+  enable = false
   appId = 'PVcYcs4bLJIh0fqEXDaPyct5-gzGzoHsz'
   appKey = 'UzsJQttSNaCRTsc0TAy3pRFU'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
@@ -150,3 +159,5 @@ commento = false
   name = "twitter"
 [[share]]
   name = "weibo"
+[[share]]
+  name = "reddit"
