@@ -75,7 +75,7 @@ enableLangChange = true # show button at bottom left of footer.
 
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+googleTagManager = "" # GTM-XXXXXX  https://analytics.google.com/
 baiduAnalytics = "" # alternative of google analytics
 enableBusuanzi = true # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = true # unique visitors (total number of visitors)
