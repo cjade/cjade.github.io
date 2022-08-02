@@ -1404,6 +1404,8 @@
 
 
 
+
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
  
 
 
@@ -1695,7 +1697,7 @@
   &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;1&nbsp;分钟 </span>
   
   <span class="single__info">
-    
+     &middot; 👀<span id="busuanzi_value_page_pv">...</span> 阅读
   </span>
 </div>
 
@@ -1944,6 +1946,12 @@
         </a>
       
     
+      
+        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fweek8.fun%2fposts%2f%25E6%2588%2591%25E6%259D%25A5%25E4%25B9%259F%2f&amp;title=%e6%88%91%e6%9d%a5%e4%b9%9f" target="_blank" rel="noreferrer" title="Reddit" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
+          <svg data-name="reddit" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.325 9.308c-.758 0-1.425.319-1.916.816-1.805-1.268-4.239-2.084-6.936-2.171l1.401-6.406 4.461 1.016c0 1.108.89 2.013 1.982 2.013 1.113 0 2.008-.929 2.008-2.038s-.889-2.038-2.007-2.038c-.779 0-1.451.477-1.786 1.129l-4.927-1.108c-.248-.067-.491.113-.557.365l-1.538 7.062c-2.676.113-5.084.928-6.895 2.197-.491-.518-1.184-.837-1.942-.837-2.812 0-3.733 3.829-1.158 5.138-.091.405-.132.837-.132 1.268 0 4.301 4.775 7.786 10.638 7.786 5.888 0 10.663-3.485 10.663-7.786 0-.431-.045-.883-.156-1.289 2.523-1.314 1.594-5.115-1.203-5.117zm-15.724 5.41c0-1.129.89-2.038 2.008-2.038 1.092 0 1.983.903 1.983 2.038 0 1.109-.89 2.013-1.983 2.013-1.113.005-2.008-.904-2.008-2.013zm10.839 4.798c-1.841 1.868-7.036 1.868-8.878 0-.203-.18-.203-.498 0-.703.177-.18.491-.18.668 0 1.406 1.463 6.07 1.488 7.537 0 .177-.18.491-.18.668 0 .207.206.207.524.005.703zm-.041-2.781c-1.092 0-1.982-.903-1.982-2.011 0-1.129.89-2.038 1.982-2.038 1.113 0 2.008.903 2.008 2.038-.005 1.103-.895 2.011-2.008 2.011z"/></svg>
+        </a>
+      
+    
   </div>
 </div>
 
@@ -2034,26 +2042,6 @@
 </nav>
     
   
-    <span id="/posts/%E6%88%91%E6%9D%A5%E4%B9%9F/" class="leancloud_visitors" data-flag-title="我来也">
-  <span class="post-meta-item-text">文章阅读量 </span>
-  <span class="leancloud-visitors-count">0</span>
-  <p></p>
-  </span>
-
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script>
-  new Valine({
-      el: '#vcomments' ,
-      appId: 'PVcYcs4bLJIh0fqEXDaPyct5-gzGzoHsz',
-      appKey: 'UzsJQttSNaCRTsc0TAy3pRFU',
-      notify:  false ,
-      verify:  false ,
-      avatar:'mm',
-      placeholder: '说点什么吧...',
-      visitor:  true 
-  });
-</script>
     <div id="gitalk-container"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
@@ -2067,7 +2055,7 @@
     owner: 'cjade',
     admin: ['cjade'],
     body: decodeURI(location.href),
-    proxy: 'https:\/\/netnr-proxy.cloudno.de\/https:\/\/github.com\/login\/oauth\/access_token',
+    proxy: 'https:\/\/cors-anywhere.azm.workers.dev\/https:\/\/github.com\/login\/oauth\/access_token',
   });
   gitalk.render('gitalk-container');
 </script>
@@ -2548,8 +2536,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    var enableBusuanzi = JSON.parse("null");
-    var busuanziPagePV = JSON.parse("null");
+    var enableBusuanzi = JSON.parse("true");
+    var busuanziPagePV = JSON.parse("true");
     
     if (enableBusuanzi && busuanziPagePV) {
       var pagePvElem = document.querySelector('#busuanzi_value_page_pv');
@@ -3064,6 +3052,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <div class="footer__poweredby">
         
+  <div class="busuanzi">
+    
+    
+      <div class="busuanzi__item">
+        <span class="busuanzi__item--label">
+          总访客
+        </span>
+        <span id="busuanzi_value_site_uv" class="busuanzi__item--number">...</span>
+      </div>
+    
+
+    
+      <div class="busuanzi__item">
+        <span class="busuanzi__item--label">
+          总浏览
+        </span>
+        <span id="busuanzi_value_site_pv" class="busuanzi__item--number">...</span>
+      </div>
+    
+
+  </div>
+
                 
             <p class="caption">
                 
