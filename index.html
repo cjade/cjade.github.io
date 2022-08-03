@@ -1663,116 +1663,53 @@
 </nav> 
 <header class="header ">
     
-        
-<script defer src="/js/swipehome.min.9c3cdd6a91caab4914edf64b64421f7115ba8786b99cec0d9bd7855ae016e1e1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.13.1/dist/core.js" integrity="sha256-dsvC/UolMujQ/UQ7lVeJ7Q/FV3BSzWO0rc8iz1rqHQo=" crossorigin="anonymous"></script>
 
 
-  <div id="headerSwipe" class="swipe">
-    <div class="swipe-home">
-      
-      
-      
-      
-      
-      
+  
+    
+      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 190px; padding: px 50px; font-size: 44px; color:white;">
+        <div id="typewriter"></div>
+      </div>
+
+      <script>
         
         
-          <div class="site-header__align-left" data-ani="true" style="background-image: url('/'); background-size: ; background-repeat: ; background-position: ; height: 235px;">
-            
-                        
-              
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
-                header title1
-              </div>
-                    
-            
-            
-              <div style="height: 20px"></div>
-            
-            
-               
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
-                header subtitle1
-              </div>
-              
-            
-          </div>
+
+        var methods = JSON.parse("[{\"typeString\":\"Do \\u003cstrong\\u003emore\\u003c/strong\\u003e, Do \\u003cstrong\\u003ebetter\\u003c/strong\\u003e.\"},{\"pauseFor\":3000}]");
+        var options = JSON.parse("{\"autoStart\":false,\"loop\":true}");
+        var typeElem = document.getElementById("typewriter");
+        var typewriter = new Typewriter(typeElem, options);
         
-          <div class="site-header__align-center" data-ani="true" style="background-image: url('/'); background-size: ; background-repeat: ; background-position: ; height: 235px;">
-            
-                        
-              
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
-                header title2
-              </div>
-                    
-            
-            
-              <div style="height: 20px"></div>
-            
-            
-               
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
-                header subtitle2
-              </div>
-              
-            
-          </div>
-        
-          <div class="site-header__align-right" data-ani="true" style="background-image: url('/'); background-size: ; background-repeat: ; background-position: ; height: 235px;">
-            
-                        
-              
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
-                header title3
-              </div>
-                    
-            
-            
-              <div style="height: 20px"></div>
-            
-            
-               
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
-                header subtitle3
-              </div>
-              
-            
-          </div>
-        
-      
-      
-    </div>
-  </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      
-      var options = null;
-      var header = JSON.parse("[{\"align\":\"center\",\"height\":200,\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"The world’s fastest framework for building websites.\"],\"subtitleFontSize\":16,\"title\":[\"鱼摆摆\"],\"titleFontSize\":44,\"type\":\"text\"},{\"align\":\"center\",\"height\":235,\"image\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle1\",\"header subtitle2\"],\"subtitleFontSize\":16,\"title\":[\"header title1\",\"header title2\"],\"titleFontSize\":44,\"type\":\"img\"},{\"height\":235,\"slide\":[{\"align\":\"left\",\"image\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle1\"],\"subtitleFontSize\":16,\"title\":[\"header title1\"],\"titleFontSize\":44},{\"align\":\"center\",\"image\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle2\"],\"subtitleFontSize\":16,\"title\":[\"header title2\"],\"titleFontSize\":44},{\"align\":\"right\",\"image\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle3\"],\"subtitleFontSize\":16,\"title\":[\"header title3\"],\"titleFontSize\":44}],\"type\":\"slide\"}]");
-      var slide = header.filter(function(h) {
-        return h.type === 'slide';
-      });
-      
-      if (slide.length > 0) {
-        options = slide[0].options;
-      }
-      
-      var headerSwipeElem = document.getElementById('headerSwipe');
-      var headerSwipe = new Swipe(headerSwipeElem,
-        options ? 
-        options : {
-          startSlide: 0,
-          auto: 7000,
-          draggable: true,
-          autoRestart: true,
-          continuous: true,
-          disableScroll: true,
-          stopPropagation: true,
-          callback: function (index, element) { },
-          transitionEnd: function (index, element) { }
-        });
-    });
-  </script>
+        for (var i = 0; i < methods.length; i++) {
+          var key = Object.keys(methods[i])[0];
+
+          if (key === "typeString") {
+            typewriter.typeString(methods[i][key]);
+          } else if (key === "pauseFor") {
+            typewriter.pauseFor(methods[i][key]);
+          } else if (key === "deleteAll") {
+            typewriter.deleteAll();
+          } else if (key === "deleteChars") {
+            typewriter.deleteChars(methods[i][key]);
+          } else if (key === "pause") {
+            typewriter.pause();
+          } else if (key === "stop") {
+            typewriter.stop();
+          }
+        }
+
+        typewriter.start();
+      </script>
+    
+  
+    
+  
+    
+  
+    
+  
+
 
     
 </header>
