@@ -5,7 +5,7 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 meta_image = "images/whoami/avatar.jpg"
 
 # header
-homeHeaderType = "slide" # text, img, slide
+homeHeaderType = "typewriter" # typewriter, text, img, slide
 
 # navbar
 enableThemeChange = true # site color theme
