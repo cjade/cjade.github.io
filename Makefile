@@ -1,4 +1,4 @@
-commit=
+commit="post"
 
 run:
 	hugo server --theme=zzo --buildDrafts -w

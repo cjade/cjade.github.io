@@ -203,7 +203,7 @@ make protoc grpc_php_plugin
 在laravel根目录执行
 
 ```bash
-protoc -I=/Users/Jade/Code/Go/iris-example/api/protos/ --php_out=./grpc --grpc_out=./grpc --plugin=protoc-gen-grpc=/usr/local/bin/grpc_php_plugin  /Users/Jade/Code/Go/iris-example/api/protos/test/test.proto
+protoc -I=../iris-example/api/protos/ --php_out=./grpc --grpc_out=./grpc --plugin=protoc-gen-grpc=/usr/local/bin/grpc_php_plugin  ../iris-example/api/protos/test/test.proto
 ```
 - -I(等同--proto_path)  用于表示要编译的proto文件所依赖的其他proto文件的查找位置，可以使用-I来替代。如果没有指定则从当前目录中查找
 
