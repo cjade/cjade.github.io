@@ -8,9 +8,9 @@ git submodule update
 ```
 ## 测试
 ```
-hugo server --theme=zzo --buildDrafts -w
+make run
 ```
 ## 编译
 ```
-hugo --theme=zzo --baseUrl="https://week8.fun/"
+make build
 ```
