@@ -10,9 +10,6 @@ build:
 
 push:
 	@echo "正在推送文章"
-	git add .
-	git commit -m '${commit}'
-	git push
 	cd public/
 	git add .
 	git commit -m '${commit}'
