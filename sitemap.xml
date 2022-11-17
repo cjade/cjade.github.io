@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://week8.fun/</loc>
-    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/categories/</loc>
-    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/golang/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/grpc/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/categories/grpc/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/posts/grpc%E9%80%9A%E4%BF%A1%E4%B9%8Bphp%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8Egolang%E6%9C%8D%E5%8A%A1%E7%AB%AF/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/php/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/posts/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
+  </url><url>
+    <loc>https://week8.fun/tags/</loc>
+    <lastmod>2022-11-17T18:08:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/tags/docker/</loc>
     <lastmod>2021-03-22T20:25:20+08:00</lastmod>
@@ -14,16 +35,10 @@
     <loc>https://week8.fun/posts/redis/docker%E6%90%AD%E5%BB%BAredis%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2021-03-22T20:25:20+08:00</lastmod>
   </url><url>
-    <loc>https://week8.fun/posts/</loc>
-    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
-  </url><url>
     <loc>https://week8.fun/tags/redis/</loc>
     <lastmod>2021-03-22T20:25:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/categories/redis/</loc>
-    <lastmod>2021-03-22T20:25:20+08:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/tags/</loc>
     <lastmod>2021-03-22T20:25:20+08:00</lastmod>
   </url><url>
     <loc>https://week8.fun/tags/centos/</loc>
@@ -48,9 +63,6 @@
     <lastmod>2019-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://week8.fun/posts/linux/linux%E4%B8%8B%E8%AE%BE%E7%BD%AEphp-fpm%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8/</loc>
-    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://week8.fun/tags/php/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://week8.fun/categories/php/</loc>

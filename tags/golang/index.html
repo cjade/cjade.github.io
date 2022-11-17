@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr ">
+<html lang="zh-cn" dir="ltr ">
 
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,7 +7,7 @@
     <meta content="" name="keywords">
     <meta content="蜗牛,php,go,golang,linux,mysql,redis - " property="og:description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>golang – 蜗牛</title>
+    <title>golang – 蜗牛 Blog</title>
     
 
 
@@ -309,7 +309,7 @@
     var notAllowedTitleIds = null;
 
     
-    var tocFolding = JSON.parse("null");
+    var tocFolding = JSON.parse("true");
     
     var tocLevels = JSON.parse("null");
     
@@ -665,9 +665,15 @@
     
     var enableSearch = JSON.parse("true");
     
+    var searchDistance = JSON.parse("null");
+    
+    var searchThreshold = JSON.parse("null");
+    
+    var searchContent = JSON.parse("null");
+    
     var enableSearchHighlight = JSON.parse("true");
     
-    var searchResultPosition = JSON.parse("\"side\"");
+    var searchResultPosition = JSON.parse("\"main\"");
     
     var sectionType = JSON.parse("\"tags\"");
     
@@ -688,12 +694,13 @@
         xhr.onload = function () {
           if (xhr.status === 200) {
             fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
-              keys: sectionType.includes('publication') ? ['title', 'abstract'] : ['title', 'description', 'content'],
+              keys: sectionType.includes('publication') ? ['title', 'abstract'] : 
+                searchContent ? ['title', 'description', 'content'] : ['title', 'description'],
               includeMatches: enableSearchHighlight,
               shouldSort: true, 
-              threshold: 0.4, 
+              threshold: searchThreshold ? searchThreshold : 0.4, 
               location: 0, 
-              distance: 100, 
+              distance: searchDistance ? searchDistance : 100, 
               maxPatternLength: 32,
               minMatchCharLength: 1,
               isCaseSensitive: false, 
@@ -717,7 +724,7 @@
       var a = document.createElement('a');
       a.innerHTML = obj.item.title;
       a.setAttribute('class', 'search-result__item--title');
-      a.setAttribute('href', obj.item.permalink);
+      a.setAttribute('href', obj.item.uri);
 
       var descDiv = document.createElement('div');
       descDiv.setAttribute('class', 'search-result__item--desc');
@@ -1317,7 +1324,8 @@
     }
   
   });
-</script> 
+</script>
+ 
 
 
 <link rel="stylesheet" href="/css/main.min.css">
@@ -1328,18 +1336,27 @@
 <meta name="description" content="蜗牛,php,go,golang,linux,mysql,redis" />
 
 
-<meta name="created" content="2014-04-02T00:00:00&#43;0000">
-<meta name="modified" content="2019-12-04T22:06:44&#43;0800">
-<meta property="article:published_time" content="2014-04-02T00:00:00&#43;0000">
+<meta name="created" content="2022-11-17T18:08:20&#43;0800">
+<meta name="modified" content="2022-11-17T18:08:20&#43;0800">
+<meta property="article:published_time" content="2022-11-17T18:08:20&#43;0800">
 
 <meta name="author" content="Jade">
 
 
-<meta property="og:site_name" content="蜗牛">
+<meta property="og:site_name" content="蜗牛 Blog">
 <meta property="og:title" content="golang">
 <meta property="og:url" content="https://week8.fun/tags/golang/">
 <meta property="og:type" content="website">
 <meta property="og:description" content="蜗牛,php,go,golang,linux,mysql,redis">
+
+  
+    <meta property="og:image" content="https://week8.fun/images/whoami/avatar.jpg">
+    <meta property="og:image:url" content="https://week8.fun/images/whoami/avatar.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:app:name:iphone" content="蜗牛 Blog">
+    <meta property="twitter:title" content="golang">
+    <meta property="twitter:description" content="蜗牛,php,go,golang,linux,mysql,redis">
+  
 
 <meta name="generator" content="Hugo 0.101.0" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1372,7 +1389,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "蜗牛",
+      "name": "蜗牛 Blog",
       "url": "https://week8.fun/"
     }
   }
@@ -1386,7 +1403,34 @@
 
 
 
+
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
  
+
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?18cb1fb32dfbb928cbdf7a0d33c5ad60";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JG07SRCZPK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JG07SRCZPK');
+    </script>
+
 </head>
 
 <body id="root" class="theme__dark">
@@ -1407,12 +1451,12 @@
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/" title="Home" rel="home" class="navbar__logo-link">
+    <a href="/" title="主页" rel="home" class="navbar__logo-link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
     
     
-      <a href="/" title="Home" rel="home" class="navbar__title-link">
+      <a href="/" title="主页" rel="home" class="navbar__title-link">
         <h6 class="navbar__title">蜗牛</h6>
       </a>
     
@@ -1444,7 +1488,7 @@
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
-          custom
+          kimbie
         </a>
         
       
@@ -1459,7 +1503,7 @@
 
 <div id="search-mobile-container" class="mobile-search hide" data-dir="ltr">
   <div class="mobile-search__top">
-    <input id="search-mobile" type="text" aria-label="Mobile Search" placeholder="Search" class="mobile-search__top--input"/>
+    <input id="search-mobile" type="text" aria-label="Mobile Search" placeholder="搜索" class="mobile-search__top--input"/>
     <div id="search-mobile-close" class="mobile-search__top--icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg>
     </div>
@@ -1487,7 +1531,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/about">about</a>
+          <a href="/archive">归档</a>
         </li>
       
       
@@ -1499,7 +1543,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/categories/linux">Linux</a>
+          <a href="/posts">文章</a>
         </li>
       
       
@@ -1511,33 +1555,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/gallery">
-            gallery
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z"/></svg>
-          </a>
-        </li>
-
-        
-          <li class="navbarm__menu--item navbarm__menu--subitem">
-            <a href="/gallery/cartoon">cartoon</a>
-          </li>
-        
-          <li class="navbarm__menu--item navbarm__menu--subitem">
-            <a href="/gallery/photo">photo</a>
-          </li>
-        
-
-      
-      
-    
-      
-      
-      
-      
-
-      
-        <li class="navbarm__menu--item ">
-          <a href="/categories/Redis">Redis</a>
+          <a href="/gallery/">画廊</a>
         </li>
       
       
@@ -1549,31 +1567,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/posts">posts</a>
-        </li>
-      
-      
-    
-      
-      
-      
-      
-
-      
-        <li class="navbarm__menu--item ">
-          <a href="/archive">archive</a>
-        </li>
-      
-      
-    
-      
-      
-      
-      
-
-      
-        <li class="navbarm__menu--item ">
-          <a href="/notes">notes</a>
+          <a href="/about">关于</a>
         </li>
       
       
@@ -1621,7 +1615,7 @@
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
-          custom
+          kimbie
         </a>
         
       
@@ -1636,7 +1630,7 @@
   
   
   
-  <a href="/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">about</a>
+  <a href="/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">归档</a>
   
   
   
@@ -1644,7 +1638,7 @@
   
   
   
-  <a href="/categories/linux" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Linux</a>
+  <a href="/posts" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">文章</a>
   
   
   
@@ -1652,20 +1646,7 @@
   
   
   
-  <div class="navbar__dropdown navbar__slide-down" data-ani="true">
-    <a href="/gallery" class="navbar__menu-item "
-      dir="ltr">
-      gallery
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z"/></svg>
-    </a>
-    <div class="navbar__dropdown--content">
-      
-      <a href="/gallery/cartoon" class="navbar__dropdown--item" dir="ltr">cartoon</a>
-      
-      <a href="/gallery/photo" class="navbar__dropdown--item" dir="ltr">photo</a>
-      
-    </div>
-  </div>
+  <a href="/gallery/" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">画廊</a>
   
   
   
@@ -1673,37 +1654,13 @@
   
   
   
-  <a href="/categories/Redis" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Redis</a>
-  
-  
-  
-  
-  
-  
-  
-  <a href="/posts" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">posts</a>
-  
-  
-  
-  
-  
-  
-  
-  <a href="/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">archive</a>
-  
-  
-  
-  
-  
-  
-  
-  <a href="/notes" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">notes</a>
+  <a href="/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">关于</a>
   
   
 </div>
 </nav>  
 
-<main class="main inner" data-sidebar-position="">
+<main class="main inner" data-sidebar-position="right">
   <div class="list__main lm">
     <nav class="breadcrumb hide" aria-label="breadcrumbs">
   <script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
@@ -1716,14 +1673,14 @@
   
   <li >
     
-      <a href="https://week8.fun/" class="capitalize">蜗牛</a>
+      <a href="https://week8.fun/" class="capitalize">蜗牛 Blog</a>
     
   </li>
   
   
   <li >
     
-      <a href="https://week8.fun/tags/" class="capitalize">Tags</a>
+      <a href="https://week8.fun/tags/" class="capitalize">标签</a>
     
   </li>
   
@@ -1752,102 +1709,27 @@
   <div class="summary-classic__flex-box" >
 
     
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://week8.fun/post/goisforlovers/'>(Hu)go Template Primer</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Apr 2, 2014 </time>
-          
-          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Nov 29, 2019 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;7&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.
-          
-        </div>
-      </div>
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://week8.fun/posts/grpc%E9%80%9A%E4%BF%A1%E4%B9%8Bphp%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8Egolang%E6%9C%8D%E5%8A%A1%E7%AB%AF/">
+        <img data-src="/images/whoami/avatar.jpg" alt="Grpc通信之php客户端与golang服务端" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
     </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-
-      
-        
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
     
 
     <div class="summary-classic__content">
       <header>
-        <h5 class="title h5"><a href='https://week8.fun/post/creating-a-new-theme/'>Creating a New Theme</a> </h5>
+        <h5 class="title h5"><a href='https://week8.fun/posts/grpc%E9%80%9A%E4%BF%A1%E4%B9%8Bphp%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8Egolang%E6%9C%8D%E5%8A%A1%E7%AB%AF/'>📌&nbsp;Grpc通信之php客户端与golang服务端</a> </h5>
         <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Apr 2, 2014 </time>
+          <time title="创建日期" dir="ltr">📅&nbsp;2022年11月17日 </time>
           
-          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Dec 4, 2019 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;34&nbsp;min read </span>
-          
-          &middot; <span title="WRITTEN BY" dir="ltr">✍️&nbsp;Michael Henderson</span>
+          <span title="阅读时长" dir="ltr"> &middot; ☕&nbsp;3&nbsp;分钟 </span>
           
         </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
           
-            Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-
-      
-        
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='https://week8.fun/post/hugoisforlovers/'>Getting Started with Hugo</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Apr 2, 2014 </time>
-          
-          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Nov 29, 2019 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:
+            Grpc通信之php客户端与golang服务端
           
         </div>
       </div>
@@ -1895,7 +1777,7 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
   <span class="icon">
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
   </span>
-  <input id="search" aria-label="Site Search" class="input" type="text" placeholder="Search" autocomplete="off">
+  <input id="search" aria-label="Site Search" class="input" type="text" placeholder="搜索" autocomplete="off">
   <div id="search-results" class="dropdown">
     <div id="search-menu" class="dropdown-menu" role="menu">
     </div>
@@ -1914,7 +1796,7 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     <section>
         <span class="title p2">
             <a href="/tags/" class="taxo__title">
-                Tags
+                标签
             </a>
         </span>
         
@@ -1934,25 +1816,12 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
         
         
             <span class="tag">
-                <a href="/tags/development/" class="is-tags taxo__link" data-dir="ltr">
+                <a href="/tags/docker/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        development
+                        Docker
                     </span>
                     <span class="taxo__num" dir="auto">
-                        3
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/tags/go/" class="is-tags taxo__link" data-dir="ltr">
-                    <span class="taxo__text">
-                        go
-                    </span>
-                    <span class="taxo__num" dir="auto">
-                        2
+                        1
                     </span>
                 </a>
             </span>
@@ -1965,7 +1834,7 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
                         golang
                     </span>
                     <span class="taxo__num" dir="auto">
-                        3
+                        1
                     </span>
                 </a>
             </span>
@@ -1973,9 +1842,9 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
         
         
             <span class="tag">
-                <a href="/tags/hugo/" class="is-tags taxo__link" data-dir="ltr">
+                <a href="/tags/grpc/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        hugo
+                        grpc
                     </span>
                     <span class="taxo__num" dir="auto">
                         1
@@ -2001,10 +1870,10 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
             <span class="tag">
                 <a href="/tags/php/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        PHP
+                        php
                     </span>
                     <span class="taxo__num" dir="auto">
-                        2
+                        3
                     </span>
                 </a>
             </span>
@@ -2025,35 +1894,22 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
         
         
             <span class="tag">
+                <a href="/tags/redis/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        Redis
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
                 <a href="/tags/ssh/" class="is-tags taxo__link" data-dir="ltr">
                     <span class="taxo__text">
                         ssh
-                    </span>
-                    <span class="taxo__num" dir="auto">
-                        2
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/tags/templates/" class="is-tags taxo__link" data-dir="ltr">
-                    <span class="taxo__text">
-                        templates
-                    </span>
-                    <span class="taxo__num" dir="auto">
-                        2
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/tags/themes/" class="is-tags taxo__link" data-dir="ltr">
-                    <span class="taxo__text">
-                        themes
                     </span>
                     <span class="taxo__num" dir="auto">
                         2
@@ -2109,32 +1965,19 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     <section>
         <span class="title p2">
             <a href="/categories/" class="taxo__title">
-                Categories
+                分类
             </a>
         </span>
         
         
         
             <span class="tag">
-                <a href="/categories/development/" class="is-categories taxo__link" data-dir="ltr">
+                <a href="/categories/grpc/" class="is-categories taxo__link" data-dir="ltr">
                     <span class="taxo__text">
-                        Development
+                        grpc
                     </span>
                     <span class="taxo__num" dir="auto">
-                        3
-                    </span>
-                </a>
-            </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/categories/golang/" class="is-categories taxo__link" data-dir="ltr">
-                    <span class="taxo__text">
-                        golang
-                    </span>
-                    <span class="taxo__num" dir="auto">
-                        3
+                        1
                     </span>
                 </a>
             </span>
@@ -2166,6 +2009,19 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
             </span>
         
         
+        
+            <span class="tag">
+                <a href="/categories/redis/" class="is-categories taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        Redis
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
+                    </span>
+                </a>
+            </span>
+        
+        
     </section>
 </div>
 
@@ -2174,7 +2030,7 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     <section>
         <span class="title p2">
             <a href="/series/" class="taxo__title">
-                Series
+                系列
             </a>
         </span>
         
@@ -2205,7 +2061,7 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
 
 <script>
     
-    var sidebarPosition = JSON.parse("null");
+    var sidebarPosition = JSON.parse("\"right\"");
     
     var enableSidebar = JSON.parse("true");
 
@@ -2354,6 +2210,28 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
 
     <div class="footer__poweredby">
         
+  <div class="busuanzi">
+    
+    
+      <div class="busuanzi__item">
+        <span class="busuanzi__item--label">
+          总访客
+        </span>
+        <span id="busuanzi_value_site_uv" class="busuanzi__item--number">...</span>
+      </div>
+    
+
+    
+      <div class="busuanzi__item">
+        <span class="busuanzi__item--label">
+          总浏览
+        </span>
+        <span id="busuanzi_value_site_pv" class="busuanzi__item--number">...</span>
+      </div>
+    
+
+  </div>
+
                 
             <p class="caption">
                 

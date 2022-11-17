@@ -6,19 +6,57 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>PHP on 蜗牛 Blog</title>
+    <title>php on 蜗牛 Blog</title>
     <link>https://week8.fun/tags/php/</link>
-    <description>Recent content in PHP on 蜗牛 Blog</description>
+    <description>Recent content in php on 蜗牛 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Nov 2022 18:08:20 +0800</lastBuildDate>
     
         <atom:link href="https://week8.fun/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Grpc通信之php客户端与golang服务端</title>
+        <link>https://week8.fun/posts/grpc%E9%80%9A%E4%BF%A1%E4%B9%8Bphp%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8Egolang%E6%9C%8D%E5%8A%A1%E7%AB%AF/</link>
+        <pubDate>Thu, 17 Nov 2022 18:08:20 +0800</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        <atom:modified>Thu, 17 Nov 2022 18:08:20 +0800</atom:modified>
+        <guid>https://week8.fun/posts/grpc%E9%80%9A%E4%BF%A1%E4%B9%8Bphp%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8Egolang%E6%9C%8D%E5%8A%A1%E7%AB%AF/</guid>
+        <description>Grpc通信之php客户端与golang服务端 grpc 服务端 golang iris 客户端 php laravel golang 服务端 创建项目 1 2 3 4 5 6 7 8 9 10 mkdir iris-example cd iris-example go mod init iris-example go mod tidy 安装gRPC和</description>
+        
+        <dc:creator>Jade</dc:creator>
+        <media:content url="https://week8.fun/images/whoami/avatar.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>grpc</category>
+            
+          
+            
+              <category>golang</category>
+            
+          
+            
+              <category>php</category>
+            
+          
+        
+        
+          
+            
+              <category>grpc</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>无需重新编译安装PHP扩展的方法</title>
