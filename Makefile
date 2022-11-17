@@ -13,8 +13,7 @@ push:
 	git add .
 	git commit -m '${commit}'
 	git push
-	cd public/;git add .
-	git commit -m '${commit}'
+	cd public/;git add .;git commit -m '${commit}'
 	git push
 	@echo "推送完成"
 
