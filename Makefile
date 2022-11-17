@@ -7,8 +7,6 @@ build:
 	@echo "开始编译"
 	hugo --theme=zzo --baseUrl="https://week8.fun/"
 	@echo "编译完成"
-
-push:
 	@echo "正在推送文章"
 	git add .
 	git commit -m '${commit}'
