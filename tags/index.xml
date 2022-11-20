@@ -14,11 +14,47 @@
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 17 Nov 2022 18:08:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2022 01:08:20 +0800</lastBuildDate>
     
         <atom:link href="https://week8.fun/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>plantuml</title>
+        <link>https://week8.fun/tags/plantuml/</link>
+        <pubDate>Mon, 21 Nov 2022 01:08:20 +0800</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/plantuml/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>uml</title>
+        <link>https://week8.fun/tags/uml/</link>
+        <pubDate>Mon, 21 Nov 2022 01:08:20 +0800</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        
+        <guid>https://week8.fun/tags/uml/</guid>
+        <description></description>
+        
+        <dc:creator>Jade</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>golang</title>
