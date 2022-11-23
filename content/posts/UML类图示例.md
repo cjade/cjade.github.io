@@ -40,7 +40,7 @@ categories = [
 可以用`..` 来代替`--` ，会显示为虚线
 
 ## UML示例图
-![UML示例](https://fastly.jsdelivr.net/gh/cjade/gallery@main/20221121014206.png)
+![请科学上网](https://fastly.jsdelivr.net/gh/cjade/gallery@main/20221124012939.png "UML示例图")
 
 ## plantuml代码
 ```plantuml
@@ -150,7 +150,7 @@ note on link #yellow
 关联关系用实线箭头来表示。
 end note
 
-大雁 o-left-> 雁群
+雁群 o-left-> 大雁
 note on link #yellow
 大雁是群居动物，每个大雁都是属于一个雁群，一个雁群可以有多只大雁。
 所以它们之间就满足聚合(Aggregation)关系。聚合表示一总弱的’拥有‘关系，体现的是<b>A</b>对象可以包含<b>B</b>对象，但<b>B</b>对象不是<b>A</b>对象的一部分。
