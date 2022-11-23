@@ -14,7 +14,7 @@
     <managingEditor>jadegg@foxmail.com (Jade)</managingEditor>
     <webMaster>jadegg@foxmail.com (Jade)</webMaster>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 01:08:20 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2022 22:46:09 +0800</lastBuildDate>
     
         <atom:link href="https://week8.fun/index.xml" rel="self" type="application/rss+xml" />
     
@@ -28,6 +28,34 @@
         
       
 
+      
+      <item>
+        <title>Hugo&#43;Github Pages&#43;Github Action博客自动发布方案</title>
+        <link>https://week8.fun/posts/hugo&#43;github-pages&#43;github-action%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Wed, 23 Nov 2022 22:46:09 +0800</pubDate>
+        <author>jadegg@foxmail.com (Jade)</author>
+        <atom:modified>Wed, 23 Nov 2022 22:46:09 +0800</atom:modified>
+        <guid>https://week8.fun/posts/hugo&#43;github-pages&#43;github-action%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%B9%E6%A1%88/</guid>
+        <description>本篇文章，默认为已经配置好本地的Hugo环境。 为什么要配置Github Action 我的博客全部代码放在自己的github pages(xxx/xxx.g</description>
+        
+        <dc:creator>Jade</dc:creator>
+        <media:content url="https://week8.fun/images/whoami/avatar.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>UML类图示例</title>
